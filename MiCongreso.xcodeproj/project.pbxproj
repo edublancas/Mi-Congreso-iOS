@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34006FB316F5925F00FA4C34 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34006FB216F5925F00FA4C34 /* UIKit.framework */; };
+		34006FB516F5925F00FA4C34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34006FB416F5925F00FA4C34 /* Foundation.framework */; };
+		34006FB716F5925F00FA4C34 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34006FB616F5925F00FA4C34 /* CoreGraphics.framework */; };
+		34006FBD16F5925F00FA4C34 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 34006FBB16F5925F00FA4C34 /* InfoPlist.strings */; };
+		34006FBF16F5925F00FA4C34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34006FBE16F5925F00FA4C34 /* main.m */; };
+		34006FC316F5925F00FA4C34 /* EBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34006FC216F5925F00FA4C34 /* EBAppDelegate.m */; };
+		34006FC516F5925F00FA4C34 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 34006FC416F5925F00FA4C34 /* Default.png */; };
+		34006FC716F5925F00FA4C34 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34006FC616F5925F00FA4C34 /* Default@2x.png */; };
+		34006FC916F5925F00FA4C34 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34006FC816F5925F00FA4C34 /* Default-568h@2x.png */; };
+		34006FCC16F5925F00FA4C34 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34006FCA16F5925F00FA4C34 /* MainStoryboard.storyboard */; };
+		34006FCF16F5925F00FA4C34 /* EBFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34006FCE16F5925F00FA4C34 /* EBFirstViewController.m */; };
+		34006FD116F5925F00FA4C34 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 34006FD016F5925F00FA4C34 /* first.png */; };
+		34006FD316F5925F00FA4C34 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34006FD216F5925F00FA4C34 /* first@2x.png */; };
+		34006FD616F5925F00FA4C34 /* EBSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34006FD516F5925F00FA4C34 /* EBSecondViewController.m */; };
+		34006FD816F5925F00FA4C34 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 34006FD716F5925F00FA4C34 /* second.png */; };
+		34006FDA16F5925F00FA4C34 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34006FD916F5925F00FA4C34 /* second@2x.png */; };
+		34006FE216F5925F00FA4C34 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34006FE116F5925F00FA4C34 /* SenTestingKit.framework */; };
+		34006FE316F5925F00FA4C34 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34006FB216F5925F00FA4C34 /* UIKit.framework */; };
+		34006FE416F5925F00FA4C34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34006FB416F5925F00FA4C34 /* Foundation.framework */; };
+		34006FEC16F5925F00FA4C34 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 34006FEA16F5925F00FA4C34 /* InfoPlist.strings */; };
+		34006FEF16F5926000FA4C34 /* MiCongresoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34006FEE16F5926000FA4C34 /* MiCongresoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34006FE516F5925F00FA4C34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34006FA716F5925F00FA4C34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34006FAE16F5925F00FA4C34;
+			remoteInfo = MiCongreso;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		34006FAF16F5925F00FA4C34 /* MiCongreso.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiCongreso.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34006FB216F5925F00FA4C34 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		34006FB416F5925F00FA4C34 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		34006FB616F5925F00FA4C34 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		34006FBA16F5925F00FA4C34 /* MiCongreso-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MiCongreso-Info.plist"; sourceTree = "<group>"; };
+		34006FBC16F5925F00FA4C34 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34006FBE16F5925F00FA4C34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		34006FC016F5925F00FA4C34 /* MiCongreso-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MiCongreso-Prefix.pch"; sourceTree = "<group>"; };
+		34006FC116F5925F00FA4C34 /* EBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EBAppDelegate.h; sourceTree = "<group>"; };
+		34006FC216F5925F00FA4C34 /* EBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EBAppDelegate.m; sourceTree = "<group>"; };
+		34006FC416F5925F00FA4C34 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		34006FC616F5925F00FA4C34 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		34006FC816F5925F00FA4C34 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		34006FCB16F5925F00FA4C34 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		34006FCD16F5925F00FA4C34 /* EBFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EBFirstViewController.h; sourceTree = "<group>"; };
+		34006FCE16F5925F00FA4C34 /* EBFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EBFirstViewController.m; sourceTree = "<group>"; };
+		34006FD016F5925F00FA4C34 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		34006FD216F5925F00FA4C34 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		34006FD416F5925F00FA4C34 /* EBSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EBSecondViewController.h; sourceTree = "<group>"; };
+		34006FD516F5925F00FA4C34 /* EBSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EBSecondViewController.m; sourceTree = "<group>"; };
+		34006FD716F5925F00FA4C34 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		34006FD916F5925F00FA4C34 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		34006FE016F5925F00FA4C34 /* MiCongresoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiCongresoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34006FE116F5925F00FA4C34 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		34006FE916F5925F00FA4C34 /* MiCongresoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MiCongresoTests-Info.plist"; sourceTree = "<group>"; };
+		34006FEB16F5925F00FA4C34 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34006FED16F5926000FA4C34 /* MiCongresoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MiCongresoTests.h; sourceTree = "<group>"; };
+		34006FEE16F5926000FA4C34 /* MiCongresoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MiCongresoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34006FAC16F5925F00FA4C34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34006FB316F5925F00FA4C34 /* UIKit.framework in Frameworks */,
+				34006FB516F5925F00FA4C34 /* Foundation.framework in Frameworks */,
+				34006FB716F5925F00FA4C34 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34006FDC16F5925F00FA4C34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34006FE216F5925F00FA4C34 /* SenTestingKit.framework in Frameworks */,
+				34006FE316F5925F00FA4C34 /* UIKit.framework in Frameworks */,
+				34006FE416F5925F00FA4C34 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34006FA616F5925F00FA4C34 = {
+			isa = PBXGroup;
+			children = (
+				34006FB816F5925F00FA4C34 /* MiCongreso */,
+				34006FE716F5925F00FA4C34 /* MiCongresoTests */,
+				34006FB116F5925F00FA4C34 /* Frameworks */,
+				34006FB016F5925F00FA4C34 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34006FB016F5925F00FA4C34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34006FAF16F5925F00FA4C34 /* MiCongreso.app */,
+				34006FE016F5925F00FA4C34 /* MiCongresoTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34006FB116F5925F00FA4C34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34006FB216F5925F00FA4C34 /* UIKit.framework */,
+				34006FB416F5925F00FA4C34 /* Foundation.framework */,
+				34006FB616F5925F00FA4C34 /* CoreGraphics.framework */,
+				34006FE116F5925F00FA4C34 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		34006FB816F5925F00FA4C34 /* MiCongreso */ = {
+			isa = PBXGroup;
+			children = (
+				34006FC116F5925F00FA4C34 /* EBAppDelegate.h */,
+				34006FC216F5925F00FA4C34 /* EBAppDelegate.m */,
+				34006FCA16F5925F00FA4C34 /* MainStoryboard.storyboard */,
+				34006FCD16F5925F00FA4C34 /* EBFirstViewController.h */,
+				34006FCE16F5925F00FA4C34 /* EBFirstViewController.m */,
+				34006FD016F5925F00FA4C34 /* first.png */,
+				34006FD216F5925F00FA4C34 /* first@2x.png */,
+				34006FD416F5925F00FA4C34 /* EBSecondViewController.h */,
+				34006FD516F5925F00FA4C34 /* EBSecondViewController.m */,
+				34006FD716F5925F00FA4C34 /* second.png */,
+				34006FD916F5925F00FA4C34 /* second@2x.png */,
+				34006FB916F5925F00FA4C34 /* Supporting Files */,
+			);
+			path = MiCongreso;
+			sourceTree = "<group>";
+		};
+		34006FB916F5925F00FA4C34 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34006FBA16F5925F00FA4C34 /* MiCongreso-Info.plist */,
+				34006FBB16F5925F00FA4C34 /* InfoPlist.strings */,
+				34006FBE16F5925F00FA4C34 /* main.m */,
+				34006FC016F5925F00FA4C34 /* MiCongreso-Prefix.pch */,
+				34006FC416F5925F00FA4C34 /* Default.png */,
+				34006FC616F5925F00FA4C34 /* Default@2x.png */,
+				34006FC816F5925F00FA4C34 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		34006FE716F5925F00FA4C34 /* MiCongresoTests */ = {
+			isa = PBXGroup;
+			children = (
+				34006FED16F5926000FA4C34 /* MiCongresoTests.h */,
+				34006FEE16F5926000FA4C34 /* MiCongresoTests.m */,
+				34006FE816F5925F00FA4C34 /* Supporting Files */,
+			);
+			path = MiCongresoTests;
+			sourceTree = "<group>";
+		};
+		34006FE816F5925F00FA4C34 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34006FE916F5925F00FA4C34 /* MiCongresoTests-Info.plist */,
+				34006FEA16F5925F00FA4C34 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34006FAE16F5925F00FA4C34 /* MiCongreso */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34006FF216F5926000FA4C34 /* Build configuration list for PBXNativeTarget "MiCongreso" */;
+			buildPhases = (
+				34006FAB16F5925F00FA4C34 /* Sources */,
+				34006FAC16F5925F00FA4C34 /* Frameworks */,
+				34006FAD16F5925F00FA4C34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MiCongreso;
+			productName = MiCongreso;
+			productReference = 34006FAF16F5925F00FA4C34 /* MiCongreso.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34006FDF16F5925F00FA4C34 /* MiCongresoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34006FF516F5926000FA4C34 /* Build configuration list for PBXNativeTarget "MiCongresoTests" */;
+			buildPhases = (
+				34006FDB16F5925F00FA4C34 /* Sources */,
+				34006FDC16F5925F00FA4C34 /* Frameworks */,
+				34006FDD16F5925F00FA4C34 /* Resources */,
+				34006FDE16F5925F00FA4C34 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34006FE616F5925F00FA4C34 /* PBXTargetDependency */,
+			);
+			name = MiCongresoTests;
+			productName = MiCongresoTests;
+			productReference = 34006FE016F5925F00FA4C34 /* MiCongresoTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34006FA716F5925F00FA4C34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = EB;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Eduardo Blancas";
+			};
+			buildConfigurationList = 34006FAA16F5925F00FA4C34 /* Build configuration list for PBXProject "MiCongreso" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 34006FA616F5925F00FA4C34;
+			productRefGroup = 34006FB016F5925F00FA4C34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34006FAE16F5925F00FA4C34 /* MiCongreso */,
+				34006FDF16F5925F00FA4C34 /* MiCongresoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34006FAD16F5925F00FA4C34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34006FBD16F5925F00FA4C34 /* InfoPlist.strings in Resources */,
+				34006FC516F5925F00FA4C34 /* Default.png in Resources */,
+				34006FC716F5925F00FA4C34 /* Default@2x.png in Resources */,
+				34006FC916F5925F00FA4C34 /* Default-568h@2x.png in Resources */,
+				34006FCC16F5925F00FA4C34 /* MainStoryboard.storyboard in Resources */,
+				34006FD116F5925F00FA4C34 /* first.png in Resources */,
+				34006FD316F5925F00FA4C34 /* first@2x.png in Resources */,
+				34006FD816F5925F00FA4C34 /* second.png in Resources */,
+				34006FDA16F5925F00FA4C34 /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34006FDD16F5925F00FA4C34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34006FEC16F5925F00FA4C34 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		34006FDE16F5925F00FA4C34 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34006FAB16F5925F00FA4C34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34006FBF16F5925F00FA4C34 /* main.m in Sources */,
+				34006FC316F5925F00FA4C34 /* EBAppDelegate.m in Sources */,
+				34006FCF16F5925F00FA4C34 /* EBFirstViewController.m in Sources */,
+				34006FD616F5925F00FA4C34 /* EBSecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34006FDB16F5925F00FA4C34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34006FEF16F5926000FA4C34 /* MiCongresoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34006FE616F5925F00FA4C34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34006FAE16F5925F00FA4C34 /* MiCongreso */;
+			targetProxy = 34006FE516F5925F00FA4C34 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		34006FBB16F5925F00FA4C34 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34006FBC16F5925F00FA4C34 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		34006FCA16F5925F00FA4C34 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34006FCB16F5925F00FA4C34 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		34006FEA16F5925F00FA4C34 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34006FEB16F5925F00FA4C34 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34006FF016F5926000FA4C34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		34006FF116F5926000FA4C34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34006FF316F5926000FA4C34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MiCongreso/MiCongreso-Prefix.pch";
+				INFOPLIST_FILE = "MiCongreso/MiCongreso-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		34006FF416F5926000FA4C34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MiCongreso/MiCongreso-Prefix.pch";
+				INFOPLIST_FILE = "MiCongreso/MiCongreso-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		34006FF616F5926000FA4C34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MiCongreso.app/MiCongreso";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MiCongreso/MiCongreso-Prefix.pch";
+				INFOPLIST_FILE = "MiCongresoTests/MiCongresoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		34006FF716F5926000FA4C34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MiCongreso.app/MiCongreso";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MiCongreso/MiCongreso-Prefix.pch";
+				INFOPLIST_FILE = "MiCongresoTests/MiCongresoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34006FAA16F5925F00FA4C34 /* Build configuration list for PBXProject "MiCongreso" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34006FF016F5926000FA4C34 /* Debug */,
+				34006FF116F5926000FA4C34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34006FF216F5926000FA4C34 /* Build configuration list for PBXNativeTarget "MiCongreso" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34006FF316F5926000FA4C34 /* Debug */,
+				34006FF416F5926000FA4C34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		34006FF516F5926000FA4C34 /* Build configuration list for PBXNativeTarget "MiCongresoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34006FF616F5926000FA4C34 /* Debug */,
+				34006FF716F5926000FA4C34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34006FA716F5925F00FA4C34 /* Project object */;
+}
