@@ -17,7 +17,6 @@
 		34006FC716F5925F00FA4C34 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34006FC616F5925F00FA4C34 /* Default@2x.png */; };
 		34006FC916F5925F00FA4C34 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34006FC816F5925F00FA4C34 /* Default-568h@2x.png */; };
 		34006FCC16F5925F00FA4C34 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34006FCA16F5925F00FA4C34 /* MainStoryboard.storyboard */; };
-		34006FCF16F5925F00FA4C34 /* EBFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34006FCE16F5925F00FA4C34 /* EBFirstViewController.m */; };
 		34006FD116F5925F00FA4C34 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 34006FD016F5925F00FA4C34 /* first.png */; };
 		34006FD316F5925F00FA4C34 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34006FD216F5925F00FA4C34 /* first@2x.png */; };
 		34006FD616F5925F00FA4C34 /* EBSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34006FD516F5925F00FA4C34 /* EBSecondViewController.m */; };
@@ -28,6 +27,23 @@
 		34006FE416F5925F00FA4C34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34006FB416F5925F00FA4C34 /* Foundation.framework */; };
 		34006FEC16F5925F00FA4C34 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 34006FEA16F5925F00FA4C34 /* InfoPlist.strings */; };
 		34006FEF16F5926000FA4C34 /* MiCongresoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34006FEE16F5926000FA4C34 /* MiCongresoTests.m */; };
+		34006FFA16F5927E00FA4C34 /* EBIniciativa.m in Sources */ = {isa = PBXBuildFile; fileRef = 34006FF916F5927E00FA4C34 /* EBIniciativa.m */; };
+		34006FFE16F5929D00FA4C34 /* EBCongresista.m in Sources */ = {isa = PBXBuildFile; fileRef = 34006FFD16F5929D00FA4C34 /* EBCongresista.m */; };
+		3400700616F5931400FA4C34 /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = 3400700116F5931400FA4C34 /* TFHpple.m */; };
+		3400700716F5931400FA4C34 /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = 3400700116F5931400FA4C34 /* TFHpple.m */; };
+		3400700816F5931400FA4C34 /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 3400700316F5931400FA4C34 /* TFHppleElement.m */; };
+		3400700916F5931400FA4C34 /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 3400700316F5931400FA4C34 /* TFHppleElement.m */; };
+		3400700A16F5931400FA4C34 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 3400700516F5931400FA4C34 /* XPathQuery.m */; };
+		3400700B16F5931400FA4C34 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 3400700516F5931400FA4C34 /* XPathQuery.m */; };
+		3400700D16F5939000FA4C34 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3400700C16F5939000FA4C34 /* libxml2.dylib */; };
+		3448E2E016F66561009FDB59 /* SVStatusHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 3448E2DF16F66561009FDB59 /* SVStatusHUD.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3448E2E216F6657B009FDB59 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3448E2E116F6657B009FDB59 /* QuartzCore.framework */; };
+		3448E2EC16F6685C009FDB59 /* update@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3448E2EB16F6685C009FDB59 /* update@2x.png */; };
+		3448E2EE16F6689B009FDB59 /* update.png in Resources */ = {isa = PBXBuildFile; fileRef = 3448E2ED16F6689B009FDB59 /* update.png */; };
+		3448E2F116F66AB5009FDB59 /* no@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3448E2EF16F66AB5009FDB59 /* no@2x.png */; };
+		3448E2F216F66AB5009FDB59 /* no.png in Resources */ = {isa = PBXBuildFile; fileRef = 3448E2F016F66AB5009FDB59 /* no.png */; };
+		34EE8D6A16F641F8001B6B66 /* EBIniciativasTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34EE8D6916F641F8001B6B66 /* EBIniciativasTableViewController.m */; };
+		34EE8D6D16F64430001B6B66 /* EBIniciativaDetallesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34EE8D6C16F64430001B6B66 /* EBIniciativaDetallesTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,8 +71,6 @@
 		34006FC616F5925F00FA4C34 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		34006FC816F5925F00FA4C34 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		34006FCB16F5925F00FA4C34 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		34006FCD16F5925F00FA4C34 /* EBFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EBFirstViewController.h; sourceTree = "<group>"; };
-		34006FCE16F5925F00FA4C34 /* EBFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EBFirstViewController.m; sourceTree = "<group>"; };
 		34006FD016F5925F00FA4C34 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		34006FD216F5925F00FA4C34 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
 		34006FD416F5925F00FA4C34 /* EBSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EBSecondViewController.h; sourceTree = "<group>"; };
@@ -69,6 +83,28 @@
 		34006FEB16F5925F00FA4C34 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		34006FED16F5926000FA4C34 /* MiCongresoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MiCongresoTests.h; sourceTree = "<group>"; };
 		34006FEE16F5926000FA4C34 /* MiCongresoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MiCongresoTests.m; sourceTree = "<group>"; };
+		34006FF816F5927E00FA4C34 /* EBIniciativa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EBIniciativa.h; path = ../EBIniciativa.h; sourceTree = "<group>"; };
+		34006FF916F5927E00FA4C34 /* EBIniciativa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EBIniciativa.m; path = ../EBIniciativa.m; sourceTree = "<group>"; };
+		34006FFC16F5929D00FA4C34 /* EBCongresista.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBCongresista.h; sourceTree = "<group>"; };
+		34006FFD16F5929D00FA4C34 /* EBCongresista.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBCongresista.m; sourceTree = "<group>"; };
+		3400700016F5931400FA4C34 /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHpple.h; sourceTree = "<group>"; };
+		3400700116F5931400FA4C34 /* TFHpple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHpple.m; sourceTree = "<group>"; };
+		3400700216F5931400FA4C34 /* TFHppleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHppleElement.h; sourceTree = "<group>"; };
+		3400700316F5931400FA4C34 /* TFHppleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHppleElement.m; sourceTree = "<group>"; };
+		3400700416F5931400FA4C34 /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
+		3400700516F5931400FA4C34 /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
+		3400700C16F5939000FA4C34 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		3448E2DE16F66561009FDB59 /* SVStatusHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVStatusHUD.h; sourceTree = "<group>"; };
+		3448E2DF16F66561009FDB59 /* SVStatusHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVStatusHUD.m; sourceTree = "<group>"; };
+		3448E2E116F6657B009FDB59 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3448E2EB16F6685C009FDB59 /* update@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "update@2x.png"; sourceTree = "<group>"; };
+		3448E2ED16F6689B009FDB59 /* update.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = update.png; sourceTree = "<group>"; };
+		3448E2EF16F66AB5009FDB59 /* no@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "no@2x.png"; sourceTree = "<group>"; };
+		3448E2F016F66AB5009FDB59 /* no.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = no.png; sourceTree = "<group>"; };
+		34EE8D6816F641F8001B6B66 /* EBIniciativasTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBIniciativasTableViewController.h; sourceTree = "<group>"; };
+		34EE8D6916F641F8001B6B66 /* EBIniciativasTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBIniciativasTableViewController.m; sourceTree = "<group>"; };
+		34EE8D6B16F64430001B6B66 /* EBIniciativaDetallesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBIniciativaDetallesTableViewController.h; sourceTree = "<group>"; };
+		34EE8D6C16F64430001B6B66 /* EBIniciativaDetallesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBIniciativaDetallesTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +112,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3448E2E216F6657B009FDB59 /* QuartzCore.framework in Frameworks */,
+				3400700D16F5939000FA4C34 /* libxml2.dylib in Frameworks */,
 				34006FB316F5925F00FA4C34 /* UIKit.framework in Frameworks */,
 				34006FB516F5925F00FA4C34 /* Foundation.framework in Frameworks */,
 				34006FB716F5925F00FA4C34 /* CoreGraphics.framework in Frameworks */,
@@ -117,6 +155,8 @@
 		34006FB116F5925F00FA4C34 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3448E2E116F6657B009FDB59 /* QuartzCore.framework */,
+				3400700C16F5939000FA4C34 /* libxml2.dylib */,
 				34006FB216F5925F00FA4C34 /* UIKit.framework */,
 				34006FB416F5925F00FA4C34 /* Foundation.framework */,
 				34006FB616F5925F00FA4C34 /* CoreGraphics.framework */,
@@ -128,11 +168,20 @@
 		34006FB816F5925F00FA4C34 /* MiCongreso */ = {
 			isa = PBXGroup;
 			children = (
+				34006FFB16F5928400FA4C34 /* Parsing */,
+				34006FFF16F592FA00FA4C34 /* hpple */,
+				3448E2DD16F66561009FDB59 /* SVStatusHUD */,
 				34006FC116F5925F00FA4C34 /* EBAppDelegate.h */,
 				34006FC216F5925F00FA4C34 /* EBAppDelegate.m */,
 				34006FCA16F5925F00FA4C34 /* MainStoryboard.storyboard */,
-				34006FCD16F5925F00FA4C34 /* EBFirstViewController.h */,
-				34006FCE16F5925F00FA4C34 /* EBFirstViewController.m */,
+				34EE8D6816F641F8001B6B66 /* EBIniciativasTableViewController.h */,
+				34EE8D6916F641F8001B6B66 /* EBIniciativasTableViewController.m */,
+				34EE8D6B16F64430001B6B66 /* EBIniciativaDetallesTableViewController.h */,
+				34EE8D6C16F64430001B6B66 /* EBIniciativaDetallesTableViewController.m */,
+				3448E2EB16F6685C009FDB59 /* update@2x.png */,
+				3448E2ED16F6689B009FDB59 /* update.png */,
+				3448E2EF16F66AB5009FDB59 /* no@2x.png */,
+				3448E2F016F66AB5009FDB59 /* no.png */,
 				34006FD016F5925F00FA4C34 /* first.png */,
 				34006FD216F5925F00FA4C34 /* first@2x.png */,
 				34006FD416F5925F00FA4C34 /* EBSecondViewController.h */,
@@ -175,6 +224,39 @@
 				34006FEA16F5925F00FA4C34 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		34006FFB16F5928400FA4C34 /* Parsing */ = {
+			isa = PBXGroup;
+			children = (
+				34006FF816F5927E00FA4C34 /* EBIniciativa.h */,
+				34006FF916F5927E00FA4C34 /* EBIniciativa.m */,
+				34006FFC16F5929D00FA4C34 /* EBCongresista.h */,
+				34006FFD16F5929D00FA4C34 /* EBCongresista.m */,
+			);
+			name = Parsing;
+			sourceTree = "<group>";
+		};
+		34006FFF16F592FA00FA4C34 /* hpple */ = {
+			isa = PBXGroup;
+			children = (
+				3400700016F5931400FA4C34 /* TFHpple.h */,
+				3400700116F5931400FA4C34 /* TFHpple.m */,
+				3400700216F5931400FA4C34 /* TFHppleElement.h */,
+				3400700316F5931400FA4C34 /* TFHppleElement.m */,
+				3400700416F5931400FA4C34 /* XPathQuery.h */,
+				3400700516F5931400FA4C34 /* XPathQuery.m */,
+			);
+			name = hpple;
+			sourceTree = "<group>";
+		};
+		3448E2DD16F66561009FDB59 /* SVStatusHUD */ = {
+			isa = PBXGroup;
+			children = (
+				3448E2DE16F66561009FDB59 /* SVStatusHUD.h */,
+				3448E2DF16F66561009FDB59 /* SVStatusHUD.m */,
+			);
+			path = SVStatusHUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +340,10 @@
 				34006FD316F5925F00FA4C34 /* first@2x.png in Resources */,
 				34006FD816F5925F00FA4C34 /* second.png in Resources */,
 				34006FDA16F5925F00FA4C34 /* second@2x.png in Resources */,
+				3448E2EC16F6685C009FDB59 /* update@2x.png in Resources */,
+				3448E2EE16F6689B009FDB59 /* update.png in Resources */,
+				3448E2F116F66AB5009FDB59 /* no@2x.png in Resources */,
+				3448E2F216F66AB5009FDB59 /* no.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,8 +380,15 @@
 			files = (
 				34006FBF16F5925F00FA4C34 /* main.m in Sources */,
 				34006FC316F5925F00FA4C34 /* EBAppDelegate.m in Sources */,
-				34006FCF16F5925F00FA4C34 /* EBFirstViewController.m in Sources */,
 				34006FD616F5925F00FA4C34 /* EBSecondViewController.m in Sources */,
+				34006FFA16F5927E00FA4C34 /* EBIniciativa.m in Sources */,
+				34006FFE16F5929D00FA4C34 /* EBCongresista.m in Sources */,
+				3400700616F5931400FA4C34 /* TFHpple.m in Sources */,
+				3400700816F5931400FA4C34 /* TFHppleElement.m in Sources */,
+				3400700A16F5931400FA4C34 /* XPathQuery.m in Sources */,
+				34EE8D6A16F641F8001B6B66 /* EBIniciativasTableViewController.m in Sources */,
+				34EE8D6D16F64430001B6B66 /* EBIniciativaDetallesTableViewController.m in Sources */,
+				3448E2E016F66561009FDB59 /* SVStatusHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +397,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				34006FEF16F5926000FA4C34 /* MiCongresoTests.m in Sources */,
+				3400700716F5931400FA4C34 /* TFHpple.m in Sources */,
+				3400700916F5931400FA4C34 /* TFHppleElement.m in Sources */,
+				3400700B16F5931400FA4C34 /* XPathQuery.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,6 +502,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MiCongreso/MiCongreso-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
 				INFOPLIST_FILE = "MiCongreso/MiCongreso-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -417,6 +514,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MiCongreso/MiCongreso-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
 				INFOPLIST_FILE = "MiCongreso/MiCongreso-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -476,6 +574,7 @@
 				34006FF416F5926000FA4C34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		34006FF516F5926000FA4C34 /* Build configuration list for PBXNativeTarget "MiCongresoTests" */ = {
 			isa = XCConfigurationList;
@@ -484,6 +583,7 @@
 				34006FF716F5926000FA4C34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
