@@ -2,8 +2,9 @@
 
 ## Acerca de la aplicación
 
-Esta aplicación permite conocer los datos de las iniciativas presentadas en el congreso, se extrae la información del sitio [Curul501](curul501.org) También se pueden ver los datos de los diputados y senadores, la información se extrae de [diputados.gob.mx](diputados.gob.mx) y [senado.gob.mx](senado.gob.mx)
+Esta aplicación permite conocer los datos de las iniciativas presentadas en el congreso, se extrae la información del sitio [Curul501](http://curul501.org) También se pueden ver los datos de los diputados y senadores, la información se extrae de [diputados.gob.mx](http://diputados.gob.mx) y [senado.gob.mx](http://senado.gob.mx)
 
+[Video de la aplicación](https://www.youtube.com/watch?v=7TSyUFCVdNI)
 
 ###Requisitos
 
