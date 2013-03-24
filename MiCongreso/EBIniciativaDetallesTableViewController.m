@@ -3,8 +3,27 @@
 //  MiCongreso
 //
 //  Created by Edu on 17/03/13.
-//  Copyright (c) 2013 Eduardo Blancas. All rights reserved.
+//  Copyright (c) 2013 Eduardo Blancas https://github.com/edublancas
 //
+//  MIT LICENSE
+//
+//  Permission is hereby granted, free of charge, to any person obtaining a copy
+//  of this software and associated documentation files (the "Software"), to
+//  deal in the Software without restriction, including without limitation the
+//  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+//  sell copies of the Software, and to permit persons to whom the Software is
+//  furnished to do so, subject to the following conditions:
+//
+//  The above copyright notice and this permission notice shall be included in
+//  all copies or substantial portions of the Software.
+//
+//  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+//  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+//  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+//  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+//  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+//  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+//  IN THE SOFTWARE.
 
 #import "EBIniciativaDetallesTableViewController.h"
 
@@ -38,19 +57,20 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-
-    iniciativa.delegate = self;
-    
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
- 
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
-    
     self.navigationItem.title = @"Detalles";
 }
 
+
+-(void)viewWillAppear:(BOOL)animated{
+    iniciativa.delegate = self;
+    [super viewWillAppear:animated];
+
+}
+
+
 -(void)viewDidDisappear:(BOOL)animated{
+    [super viewDidDisappear:animated];
+    [[NSNotificationCenter defaultCenter] removeObserver:ACAccountStoreDidChangeNotification];
     iniciativa.delegate = nil;
 }
 
@@ -201,7 +221,7 @@
                         break;
                 }
             }else{
-                cell.textLabel.text = @"¡Gracias por votar!";
+                cell.textLabel.text = @"Compartir mi voto";
             }
             break;
         default:
@@ -279,9 +299,11 @@
             if (indexPath.row==0) {
                 //Vote up
                 [iniciativa voteUp];
+                didUpVote = YES;
             }else{
                 //Vote down
                 [iniciativa voteDown];
+                didUpVote = NO;
             }
             
             UIAlertView *alert = [[UIAlertView alloc]
@@ -290,19 +312,22 @@
                                   delegate:self
                                   cancelButtonTitle:@"OK"
                                   otherButtonTitles:nil];
+            alert.tag = 0;
             
             [alert show];
             didVote = YES;
-            [iniciativa descargarDetalles];
             [self.tableView reloadSections:[NSIndexSet indexSetWithIndex:7] withRowAnimation:UITableViewRowAnimationAutomatic];
             
         }else{
             UIAlertView *alert = [[UIAlertView alloc]
-                                  initWithTitle:@"Aviso"
-                                  message:@"Ya has votado"
+                                  initWithTitle:@"Comparte tu voto"
+                                  message:@"¿Dónde deseas compartir tu voto?"
                                   delegate:self
-                                  cancelButtonTitle:@"OK"
-                                  otherButtonTitles:nil];
+                                  cancelButtonTitle:@"Cancelar"
+                                  otherButtonTitles:@"Twitter",
+                                  @"Facebook", nil];
+            
+            alert.tag = 1;
             
             [alert show];
         }
@@ -317,6 +342,58 @@
         [self.navigationController pushViewController:controller animated:YES];
     }
     
+}
+
+- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex{
+    if (alertView.tag==1) {
+        if (buttonIndex==1) {
+            //Twitter
+            [self postVoteTo:SLServiceTypeTwitter];
+        }else if(buttonIndex==2){
+            //Facebook
+            [self postVoteTo:SLServiceTypeFacebook];
+        }
+    }
+    
+}
+
+
+-(void)postVoteTo:(NSString *)socialNetwork{
+    
+    if ([SLComposeViewController isAvailableForServiceType:socialNetwork]) {
+        
+        SLComposeViewController *composeViewController = [SLComposeViewController composeViewControllerForServiceType:socialNetwork];
+        
+        NSString *text;
+        if (didUpVote) {
+            text = @"He votado a favor de una iniciativa en Curul501";
+        }else{
+            text = @"He votado en contra de una iniciativa en Curul501";
+        }
+        
+        [composeViewController setInitialText:text];
+        
+        NSString *urlString = [NSString stringWithFormat:@"http://curul501.org/iniciativas/%@", iniciativa.identificadorDeIniciativa];
+        [composeViewController addURL:[NSURL URLWithString:urlString]];
+        
+        SLComposeViewControllerCompletionHandler handler = ^(SLComposeViewControllerResult result){
+            [composeViewController dismissViewControllerAnimated:YES completion:Nil];
+        };
+        
+        [composeViewController setCompletionHandler:handler];
+        
+        [self presentViewController:composeViewController animated:YES completion:nil];
+        
+    }else{
+        UIAlertView *alert = [[UIAlertView alloc]
+                              initWithTitle:@"Aviso"
+                              message:@"Debes configurar una cuenta primero"
+                              delegate:nil
+                              cancelButtonTitle:@"OK"
+                              otherButtonTitles:nil];
+        
+        [alert show];
+    }
 }
 
 @end

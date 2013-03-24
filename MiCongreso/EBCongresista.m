@@ -3,8 +3,28 @@
 //  MiCongreso
 //
 //  Created by Edu on 16/03/13.
-//  Copyright (c) 2013 Eduardo Blancas. All rights reserved.
+//  Copyright (c) 2013 Eduardo Blancas https://github.com/edublancas
 //
+//  MIT LICENSE
+//
+//  Permission is hereby granted, free of charge, to any person obtaining a copy
+//  of this software and associated documentation files (the "Software"), to
+//  deal in the Software without restriction, including without limitation the
+//  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+//  sell copies of the Software, and to permit persons to whom the Software is
+//  furnished to do so, subject to the following conditions:
+//
+//  The above copyright notice and this permission notice shall be included in
+//  all copies or substantial portions of the Software.
+//
+//  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+//  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+//  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+//  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+//  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+//  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+//  IN THE SOFTWARE.
+
 
 #import "EBCongresista.h"
 
@@ -117,7 +137,7 @@ estado, detallesString, detallesDisponibles, delegate;
                 
                 self.direccion = [mdireccion copy];
                 
-                NSLog(@"Dirección: %@", self.direccion);
+                //NSLog(@"Dirección: %@", self.direccion);
                 
                 NSString *phoneQuery1 = @"//div[@id='contenedor']/div[@id='cuerpo']/div[@id='contenido_interior']/table[1]/tr[2]/td[2]/table[1]/tr[6]/td[2]";
                 NSString *phoneQuery2 = @"//div[@id='contenedor']/div[@id='cuerpo']/div[@id='contenido_interior']/table[1]/tr[2]/td[2]/table[1]/tr[5]/td[2]";

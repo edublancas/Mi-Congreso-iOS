@@ -55,6 +55,8 @@
 		34A0DEFF16FE1F25005C7D08 /* EBEstadoIniciativaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A0DEFE16FE1F25005C7D08 /* EBEstadoIniciativaViewController.m */; };
 		34A0DF0116FE2DD1005C7D08 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 34A0DF0016FE2DD1005C7D08 /* Icon.png */; };
 		34A0DF0316FE2DD4005C7D08 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34A0DF0216FE2DD4005C7D08 /* Icon@2x.png */; };
+		34B8491816FF7063004FC7D7 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34B8491716FF7063004FC7D7 /* Social.framework */; };
+		34B8491916FF70B0004FC7D7 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34E467AB16FF6EDD00AF23CB /* Accounts.framework */; };
 		34E6429F16FD200C003F5D03 /* EBCongresistaDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E6429E16FD200C003F5D03 /* EBCongresistaDetailViewController.m */; };
 		34E642A116FD45B8003F5D03 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34E642A016FD45B8003F5D03 /* CoreLocation.framework */; };
 		34E642A816FD4AA1003F5D03 /* 22-location-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 34E642A616FD4AA1003F5D03 /* 22-location-arrow.png */; };
@@ -137,6 +139,8 @@
 		34A0DEFE16FE1F25005C7D08 /* EBEstadoIniciativaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBEstadoIniciativaViewController.m; sourceTree = "<group>"; };
 		34A0DF0016FE2DD1005C7D08 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../Icon.png; sourceTree = "<group>"; };
 		34A0DF0216FE2DD4005C7D08 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../Icon@2x.png"; sourceTree = "<group>"; };
+		34B8491716FF7063004FC7D7 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		34E467AB16FF6EDD00AF23CB /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		34E6429D16FD200C003F5D03 /* EBCongresistaDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBCongresistaDetailViewController.h; sourceTree = "<group>"; };
 		34E6429E16FD200C003F5D03 /* EBCongresistaDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBCongresistaDetailViewController.m; sourceTree = "<group>"; };
 		34E642A016FD45B8003F5D03 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
@@ -155,6 +159,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34B8491916FF70B0004FC7D7 /* Accounts.framework in Frameworks */,
+				34B8491816FF7063004FC7D7 /* Social.framework in Frameworks */,
 				34408A5716FE78B30034A140 /* MessageUI.framework in Frameworks */,
 				34E642A116FD45B8003F5D03 /* CoreLocation.framework in Frameworks */,
 				3448E2E216F6657B009FDB59 /* QuartzCore.framework in Frameworks */,
@@ -200,6 +206,8 @@
 		34006FB116F5925F00FA4C34 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				34B8491716FF7063004FC7D7 /* Social.framework */,
+				34E467AB16FF6EDD00AF23CB /* Accounts.framework */,
 				34E642A016FD45B8003F5D03 /* CoreLocation.framework */,
 				3448E2E116F6657B009FDB59 /* QuartzCore.framework */,
 				3400700C16F5939000FA4C34 /* libxml2.dylib */,
