@@ -4,11 +4,11 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
     <scenes>
-        <!--Navigation Controller - Item-->
+        <!--Navigation Controller - Iniciativas-->
         <scene sceneID="SR1-ze-Lhr">
             <objects>
                 <navigationController definesPresentationContext="YES" id="3w5-uV-P62" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="Acn-w2-xfE"/>
+                    <tabBarItem key="tabBarItem" title="Iniciativas" image="256-box2.png" id="Acn-w2-xfE"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Egc-mo-MJv">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -54,11 +54,11 @@
             </objects>
             <point key="canvasLocation" x="589" y="-479"/>
         </scene>
-        <!--Navigation Controller - Item-->
+        <!--Navigation Controller - Congresistas-->
         <scene sceneID="Mvg-bf-B4b">
             <objects>
                 <navigationController definesPresentationContext="YES" id="LHL-rV-DgU" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="R4Y-7l-w9y"/>
+                    <tabBarItem key="tabBarItem" title="Congresistas" image="123-id-card.png" id="R4Y-7l-w9y"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="wjQ-89-zua">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -70,16 +70,16 @@
             </objects>
             <point key="canvasLocation" x="31" y="373"/>
         </scene>
-        <!--Second View Controller - Item-->
+        <!--Congresistas View Controller-->
         <scene sceneID="C7O-S4-k3y">
             <objects>
-                <tableViewController id="Mhb-SF-Job" customClass="EBSecondViewController" sceneMemberID="viewController">
+                <tableViewController id="Mhb-SF-Job" customClass="EBCongresistasViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="singleLineEtched" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="cmP-Ny-J6R">
                         <rect key="frame" x="0.0" y="64" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <containerView key="tableHeaderView" contentMode="scaleToFill" id="xbh-ea-mFD">
-                            <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="38"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             <connections>
@@ -87,8 +87,8 @@
                             </connections>
                         </containerView>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="5zG-XH-s7z" customClass="Cell">
-                                <rect key="frame" x="0.0" y="96" width="320" height="46"/>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" id="5zG-XH-s7z" customClass="Cell">
+                                <rect key="frame" x="0.0" y="74" width="320" height="46"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                     <rect key="frame" x="10" y="1" width="300" height="43"/>
@@ -102,8 +102,11 @@
                             <outlet property="delegate" destination="Mhb-SF-Job" id="qy7-rw-adt"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Item" id="ARv-6Z-P77"/>
+                    <tabBarItem key="tabBarItem" title="" id="ARv-6Z-P77"/>
                     <navigationItem key="navigationItem" id="HfM-Gc-MLR"/>
+                    <connections>
+                        <segue destination="SWp-A1-Cw3" kind="push" identifier="detailView" id="dOQ-Ja-3qI"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Ky-RV-rtB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -112,7 +115,7 @@
         <!--Iniciativa Detalles Table View Controller-->
         <scene sceneID="JTh-OV-w78">
             <objects>
-                <tableViewController id="MhN-ys-TMR" customClass="EBIniciativaDetallesTableViewController" sceneMemberID="viewController">
+                <tableViewController hidesBottomBarWhenPushed="YES" id="MhN-ys-TMR" customClass="EBIniciativaDetallesTableViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="singleLineEtched" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="elU-yq-kMD">
                         <rect key="frame" x="0.0" y="64" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -163,10 +166,10 @@
             <objects>
                 <viewController id="VDB-Lu-WBr" sceneMemberID="viewController">
                     <view key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="JQ0-s6-3fj">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="38"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bordered" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="d5a-f2-M3b">
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="d5a-f2-M3b">
                                 <constraints>
                                     <constraint firstAttribute="width" constant="289" id="WGM-0y-O7h"/>
                                 </constraints>
@@ -179,12 +182,13 @@
                                     <segment title="PT"/>
                                     <segment title="MC"/>
                                 </segments>
+                                <color key="tintColor" red="0.7568628191947937" green="0.56862747669219971" blue="0.28627452254295349" alpha="1" colorSpace="deviceRGB"/>
                             </segmentedControl>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="d5a-f2-M3b" firstAttribute="leading" secondItem="JQ0-s6-3fj" secondAttribute="leading" constant="2" id="Iag-AG-LcJ"/>
-                            <constraint firstItem="d5a-f2-M3b" firstAttribute="top" secondItem="JQ0-s6-3fj" secondAttribute="top" constant="8" id="Pkz-Fd-LS5"/>
+                            <constraint firstItem="d5a-f2-M3b" firstAttribute="top" secondItem="JQ0-s6-3fj" secondAttribute="top" constant="4" id="8Ku-AI-5YR"/>
+                            <constraint firstItem="d5a-f2-M3b" firstAttribute="leading" secondItem="JQ0-s6-3fj" secondAttribute="leading" constant="6" id="CFi-0w-CmZ"/>
                         </constraints>
                     </view>
                     <toolbarItems/>
@@ -193,16 +197,53 @@
             </objects>
             <point key="canvasLocation" x="1090" y="245"/>
         </scene>
+        <!--Congresista Detail View Controller-->
+        <scene sceneID="lZ4-AO-slL">
+            <objects>
+                <tableViewController hidesBottomBarWhenPushed="YES" id="SWp-A1-Cw3" customClass="EBCongresistaDetailViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="singleLineEtched" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="j2a-NU-rWb">
+                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" id="dav-us-7bE">
+                                <rect key="frame" x="0.0" y="46" width="320" height="46"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="10" y="1" width="300" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="SWp-A1-Cw3" id="nCa-ZV-ITr"/>
+                            <outlet property="delegate" destination="SWp-A1-Cw3" id="Upu-KM-15t"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="Ce6-FI-HXc"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CgX-mB-ckf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1233" y="447"/>
+        </scene>
     </scenes>
+    <resources>
+        <image name="123-id-card.png" width="24" height="17"/>
+        <image name="256-box2.png" width="22" height="20"/>
+    </resources>
     <classes>
+        <class className="EBCongresistaDetailViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/EBCongresistaDetailViewController.h"/>
+        </class>
+        <class className="EBCongresistasViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/EBCongresistasViewController.h"/>
+        </class>
         <class className="EBIniciativaDetallesTableViewController" superclassName="UITableViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/EBIniciativaDetallesTableViewController.h"/>
         </class>
         <class className="EBIniciativasTableViewController" superclassName="UITableViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/EBIniciativasTableViewController.h"/>
-        </class>
-        <class className="EBSecondViewController" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/EBSecondViewController.h"/>
         </class>
         <class className="NSLayoutConstraint" superclassName="NSObject">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>

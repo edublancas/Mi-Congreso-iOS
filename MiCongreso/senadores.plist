@@ -1,0 +1,1346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>A</key>
+	<array>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=535</string>
+			<key>estado</key>
+			<string>Chiapas</string>
+			<key>nombre</key>
+			<string>Sen. Albores Gleason  Roberto Armando </string>
+			<key>partido</key>
+			<string>PRI</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=547</string>
+			<key>estado</key>
+			<string>Durango</string>
+			<key>nombre</key>
+			<string>Sen. Aispuro Torres  José Rosas </string>
+			<key>partido</key>
+			<string>PAN</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=555</string>
+			<key>estado</key>
+			<string>Nuevo León</string>
+			<key>nombre</key>
+			<string>Sen. Álvarez García  Ivonne Liliana</string>
+			<key>partido</key>
+			<string>PRI</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=570</string>
+			<key>estado</key>
+			<string>Puebla</string>
+			<key>nombre</key>
+			<string>Sen. Alcalá Ruiz  Blanca María del Socorro</string>
+			<key>partido</key>
+			<string>PRI</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=583</string>
+			<key>estado</key>
+			<string>Sinaloa</string>
+			<key>nombre</key>
+			<string>Sen. Amador Gaxiola  Daniel</string>
+			<key>partido</key>
+			<string>PRI</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=601</string>
+			<key>estado</key>
+			<string>Yucatán</string>
+			<key>nombre</key>
+			<string>Sen. Ávila Ruiz  Daniel Gabriel </string>
+			<key>partido</key>
+			<string>PAN</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=603</string>
+			<key>estado</key>
+			<string>Yucatán</string>
+			<key>nombre</key>
+			<string>Sen. Araujo Lara  Angélica del Rosario </string>
+			<key>partido</key>
+			<string>PRI</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=627</string>
+			<key>estado</key>
+			<string>Lista Nacional</string>
+			<key>nombre</key>
+			<string>Sen. Arriola Gordillo  Mónica Tzasna</string>
+			<key>partido</key>
+			<string>NA</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=628</string>
+			<key>estado</key>
+			<string>Lista Nacional</string>
+			<key>nombre</key>
+			<string>Sen. Ayala Almeida  Joel </string>
+			<key>partido</key>
+			<string>PRI</string>
+		</dict>
+	</array>
+	<key>B</key>
+	<array>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=517</string>
+			<key>estado</key>
+			<string>Baja California</string>
+			<key>nombre</key>
+			<string>Sen. Blásquez Salinas  Marco Antonio </string>
+			<key>partido</key>
+			<string>PT</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=518</string>
+			<key>estado</key>
+			<string>Baja California Sur</string>
+			<key>nombre</key>
+			<string>Sen. Barroso Agramont  Ricardo </string>
+			<key>partido</key>
+			<string>PRI</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=541</string>
+			<key>estado</key>
+			<string>Distrito Federal</string>
+			<key>nombre</key>
+			<string>Sen. Barrales Magdaleno  María Alejandra</string>
+			<key>partido</key>
+			<string>PRD</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=575</string>
+			<key>estado</key>
+			<string>Querétaro</string>
+			<key>nombre</key>
+			<string>Sen. Burgos García  Enrique</string>
+			<key>partido</key>
+			<string>PRI</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=578</string>
+			<key>estado</key>
+			<string>Quintana Roo</string>
+			<key>nombre</key>
+			<string>Sen. Beristain Navarrete  Luz María</string>
+			<key>partido</key>
+			<string>PRD</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=587</string>
+			<key>estado</key>
+			<string>Sonora</string>
+			<key>nombre</key>
+			<string>Sen. Búrquez Valenzuela  Francisco de Paula</string>
+			<key>partido</key>
+			<string>PAN</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=618</string>
+			<key>estado</key>
+			<string>México</string>
+			<key>nombre</key>
+			<string>Sen. Barrera Tapia  María Elena </string>
+			<key>partido</key>
+			<string>PVEM</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=629</string>
+			<key>estado</key>
+			<string>Lista Nacional</string>
+			<key>nombre</key>
+			<string>Sen. Barbosa Huerta  Luis Miguel Gerónimo </string>
+			<key>partido</key>
+			<string>PRD</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=634</string>
+			<key>estado</key>
+			<string>Lista Nacional</string>
+			<key>nombre</key>
+			<string>Sen. Bartlett Díaz  Manuel </string>
+			<key>partido</key>
+			<string>PT</string>
+		</dict>
+	</array>
+	<key>C</key>
+	<array>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=534</string>
+			<key>estado</key>
+			<string>Nayarit</string>
+			<key>nombre</key>
+			<string>Sen. Cota Jiménez  Manuel Humberto </string>
+			<key>partido</key>
+			<string>PRI</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=540</string>
+			<key>estado</key>
+			<string>Chihuahua</string>
+			<key>nombre</key>
+			<string>Sen. Corral Jurado  Javier </string>
+			<key>partido</key>
+			<string>PAN</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=551</string>
+			<key>estado</key>
+			<string>Guanajuato</string>
+			<key>nombre</key>
+			<string>Sen. Chico Herrera  Miguel Ángel </string>
+			<key>partido</key>
+			<string>PRI</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=560</string>
+			<key>estado</key>
+			<string>Jalisco</string>
+			<key>nombre</key>
+			<string>Sen. Casillas Romero  Jesús </string>
+			<key>partido</key>
+			<string>PRI</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=594</string>
+			<key>estado</key>
+			<string>Tamaulipas</string>
+			<key>nombre</key>
+			<string>Sen. Cavazos Lerma  Manuel</string>
+			<key>partido</key>
+			<string>PRI</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=595</string>
+			<key>estado</key>
+			<string>Tlaxcala</string>
+			<key>nombre</key>
+			<string>Sen. Cuéllar Cisneros  Lorena </string>
+			<key>partido</key>
+			<string>PRD</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=606</string>
+			<key>estado</key>
+			<string>Lista Nacional</string>
+			<key>nombre</key>
+			<string>Sen. Cordero Arroyo  Ernesto Javier</string>
+			<key>partido</key>
+			<string>PAN</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=609</string>
+			<key>estado</key>
+			<string>Lista Nacional</string>
+			<key>nombre</key>
+			<string>Sen. Calderón Hinojosa  Luisa María</string>
+			<key>partido</key>
+			<string>PAN</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=612</string>
+			<key>estado</key>
+			<string>Lista Nacional</string>
+			<key>nombre</key>
+			<string>Sen. Cuevas Barrón  Gabriela </string>
+			<key>partido</key>
+			<string>PAN</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=633</string>
+			<key>estado</key>
+			<string>Lista Nacional</string>
+			<key>nombre</key>
+			<string>Sen. Camacho Solís  Víctor Manuel </string>
+			<key>partido</key>
+			<string>PRD</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=638</string>
+			<key>estado</key>
+			<string>Lista Nacional</string>
+			<key>nombre</key>
+			<string>Sen. Cervantes Andrade  Raúl</string>
+			<key>partido</key>
+			<string>PRI</string>
+		</dict>
+	</array>
+	<key>D</key>
+	<array>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=522</string>
+			<key>estado</key>
+			<string>Morelos</string>
+			<key>nombre</key>
+			<string>Sen. Demédicis Hidalgo  Fidel </string>
+			<key>partido</key>
+			<string>PRD</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=542</string>
+			<key>estado</key>
+			<string>Distrito Federal</string>
+			<key>nombre</key>
+			<string>Sen. Delgado Carrillo  Mario</string>
+			<key>partido</key>
+			<string>PRD</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=573</string>
+			<key>estado</key>
+			<string>Querétaro</string>
+			<key>nombre</key>
+			<string>Sen. Domínguez Servién  Francisco</string>
+			<key>partido</key>
+			<string>PAN</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=597</string>
+			<key>estado</key>
+			<string>Tlaxcala</string>
+			<key>nombre</key>
+			<string>Sen. Dávila Fernández  Adriana </string>
+			<key>partido</key>
+			<string>PAN</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=602</string>
+			<key>estado</key>
+			<string>Yucatán</string>
+			<key>nombre</key>
+			<string>Sen. Díaz Lizama  Rosa Adriana </string>
+			<key>partido</key>
+			<string>PAN</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=619</string>
+			<key>estado</key>
+			<string>Lista Nacional</string>
+			<key>nombre</key>
+			<string>Sen. Díaz Salazar  María Cristina</string>
+			<key>partido</key>
+			<string>PRI</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=630</string>
+			<key>estado</key>
+			<string>Lista Nacional</string>
+			<key>nombre</key>
+			<string>Sen. Gómez   Angélica  De la Peña</string>
+			<key>partido</key>
+			<string>PRD</string>
+		</dict>
+	</array>
+	<key>E</key>
+	<array>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=543</string>
+			<key>estado</key>
+			<string>Distrito Federal</string>
+			<key>nombre</key>
+			<string>Sen. Escudero Morales  Pablo </string>
+			<key>partido</key>
+			<string>PVEM</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=636</string>
+			<key>estado</key>
+			<string>México</string>
+			<key>nombre</key>
+			<string>Sen. Rodríguez   Alejandro de Jesús Encinas</string>
+			<key>partido</key>
+			<string>PRD</string>
+		</dict>
+	</array>
+	<key>F</key>
+	<array>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=528</string>
+			<key>estado</key>
+			<string>Coahuila</string>
+			<key>nombre</key>
+			<string>Sen. Fernández Aguirre  Braulio Manuel </string>
+			<key>partido</key>
+			<string>PRI</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=538</string>
+			<key>estado</key>
+			<string>Nayarit</string>
+			<key>nombre</key>
+			<string>Sen. Flores Sánchez  Margarita</string>
+			<key>partido</key>
+			<string>PRI</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=556</string>
+			<key>estado</key>
+			<string>Hidalgo</string>
+			<key>nombre</key>
+			<string>Sen. Fayad Meneses  Omar </string>
+			<key>partido</key>
+			<string>PRI</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=613</string>
+			<key>estado</key>
+			<string>Lista Nacional</string>
+			<key>nombre</key>
+			<string>Sen. Flores Ramírez  Juan Gerardo </string>
+			<key>partido</key>
+			<string>PVEM</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=637</string>
+			<key>estado</key>
+			<string>Lista Nacional</string>
+			<key>nombre</key>
+			<string>Sen. Flores Escalera  Hilda Esthela</string>
+			<key>partido</key>
+			<string>PRI</string>
+		</dict>
+	</array>
+	<key>G</key>
+	<array>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=519</string>
+			<key>estado</key>
+			<string>Baja California Sur</string>
+			<key>nombre</key>
+			<string>Sen. González Cuevas  Isaías </string>
+			<key>partido</key>
+			<string>PRI</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=526</string>
+			<key>estado</key>
+			<string>Coahuila</string>
+			<key>nombre</key>
+			<string>Sen. Garza Galván  Silvia Guadalupe </string>
+			<key>partido</key>
+			<string>PAN</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=545</string>
+			<key>estado</key>
+			<string>Nayarit</string>
+			<key>nombre</key>
+			<string>Sen. García Gómez  Martha Elena </string>
+			<key>partido</key>
+			<string>PAN</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=550</string>
+			<key>estado</key>
+			<string>Nuevo León</string>
+			<key>nombre</key>
+			<string>Sen. Guerra Castillo  Marcela</string>
+			<key>partido</key>
+			<string>PRI</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=566</string>
+			<key>estado</key>
+			<string>Nuevo León</string>
+			<key>nombre</key>
+			<string>Sen. Gracia Guzmán  Raúl</string>
+			<key>partido</key>
+			<string>PAN</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=576</string>
+			<key>estado</key>
+			<string>Quintana Roo</string>
+			<key>nombre</key>
+			<string>Sen. González Martínez  Jorge Emilio</string>
+			<key>partido</key>
+			<string>PVEM</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=577</string>
+			<key>estado</key>
+			<string>Quintana Roo</string>
+			<key>nombre</key>
+			<string>Sen. González Canto  Félix Arturo</string>
+			<key>partido</key>
+			<string>PRI</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=586</string>
+			<key>estado</key>
+			<string>Sonora</string>
+			<key>nombre</key>
+			<string>Sen. Gándara Camou  Ernesto</string>
+			<key>partido</key>
+			<string>PRI</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=591</string>
+			<key>estado</key>
+			<string>Tamaulipas</string>
+			<key>nombre</key>
+			<string>Sen. de Vaca  Francisco García Cabeza</string>
+			<key>partido</key>
+			<string>PAN</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=607</string>
+			<key>estado</key>
+			<string>Lista Nacional</string>
+			<key>nombre</key>
+			<string>Sen. Campo Gurza  Mariana  Gómez del</string>
+			<key>partido</key>
+			<string>PAN</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=608</string>
+			<key>estado</key>
+			<string>Lista Nacional</string>
+			<key>nombre</key>
+			<string>Sen. Gil Zuarth  Roberto </string>
+			<key>partido</key>
+			<string>PAN</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=617</string>
+			<key>estado</key>
+			<string>Lista Nacional</string>
+			<key>nombre</key>
+			<string>Sen. Gamboa Patrón  Emilio</string>
+			<key>partido</key>
+			<string>PRI</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=621</string>
+			<key>estado</key>
+			<string>Lista Nacional</string>
+			<key>nombre</key>
+			<string>Sen. Gastélum Bajo  Diva Hadamira </string>
+			<key>partido</key>
+			<string>PRI</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=626</string>
+			<key>estado</key>
+			<string>Lista Nacional</string>
+			<key>nombre</key>
+			<string>Sen. Gómez González  Arely</string>
+			<key>partido</key>
+			<string>PRI</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=635</string>
+			<key>estado</key>
+			<string>Lista Nacional</string>
+			<key>nombre</key>
+			<string>Sen. Guevara Espinoza  Ana Gabriela </string>
+			<key>partido</key>
+			<string>PT</string>
+		</dict>
+	</array>
+	<key>H</key>
+	<array>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=513</string>
+			<key>estado</key>
+			<string>Aguascalientes</string>
+			<key>nombre</key>
+			<string>Sen. Herrera Ávila  Fernando </string>
+			<key>partido</key>
+			<string>PAN</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=516</string>
+			<key>estado</key>
+			<string>Baja California</string>
+			<key>nombre</key>
+			<string>Sen. y Celada  Víctor  Hermosillo</string>
+			<key>partido</key>
+			<string>PAN</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=531</string>
+			<key>estado</key>
+			<string>Morelos</string>
+			<key>nombre</key>
+			<string>Sen. Hernández Lecona  Lisbeth</string>
+			<key>partido</key>
+			<string>PRI</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=544</string>
+			<key>estado</key>
+			<string>Durango</string>
+			<key>nombre</key>
+			<string>Sen. Hernández Deras  Ismael </string>
+			<key>partido</key>
+			<string>PRI</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=546</string>
+			<key>estado</key>
+			<string>Durango</string>
+			<key>nombre</key>
+			<string>Sen. Herrera Ale  Juana Leticia </string>
+			<key>partido</key>
+			<string>PRI</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=562</string>
+			<key>estado</key>
+			<string>México</string>
+			<key>nombre</key>
+			<string>Sen. Herrera Anzaldo  Ana Lilia </string>
+			<key>partido</key>
+			<string>PRI</string>
+		</dict>
+	</array>
+	<key>I</key>
+	<array>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=582</string>
+			<key>estado</key>
+			<string>Sinaloa</string>
+			<key>nombre</key>
+			<string>Sen. Irízar López  Aarón</string>
+			<key>partido</key>
+			<string>PRI</string>
+		</dict>
+	</array>
+	<key>J</key>
+	<array>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=554</string>
+			<key>estado</key>
+			<string>Guerrero</string>
+			<key>nombre</key>
+			<string>Sen. Juárez Cisneros  René </string>
+			<key>partido</key>
+			<string>PRI</string>
+		</dict>
+	</array>
+	<key>L</key>
+	<array>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=524</string>
+			<key>estado</key>
+			<string>Campeche</string>
+			<key>nombre</key>
+			<string>Sen. Lavalle Maury  Jorge Luis </string>
+			<key>partido</key>
+			<string>PAN</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=572</string>
+			<key>estado</key>
+			<string>Puebla</string>
+			<key>nombre</key>
+			<string>Sen. Lozano Alarcón  Javier</string>
+			<key>partido</key>
+			<string>PAN</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=584</string>
+			<key>estado</key>
+			<string>Sinaloa</string>
+			<key>nombre</key>
+			<string>Sen. López Brito  Francisco Salvador</string>
+			<key>partido</key>
+			<string>PAN</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=588</string>
+			<key>estado</key>
+			<string>Tabasco</string>
+			<key>nombre</key>
+			<string>Sen. López Hernández  Adán Augusto</string>
+			<key>partido</key>
+			<string>PRD</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=616</string>
+			<key>estado</key>
+			<string>Lista Nacional</string>
+			<key>nombre</key>
+			<string>Sen. Larios Córdova  Héctor </string>
+			<key>partido</key>
+			<string>PAN</string>
+		</dict>
+	</array>
+	<key>M</key>
+	<array>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=520</string>
+			<key>estado</key>
+			<string>Baja California Sur</string>
+			<key>nombre</key>
+			<string>Sen. Mendoza Davis  Carlos </string>
+			<key>partido</key>
+			<string>PAN</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=533</string>
+			<key>estado</key>
+			<string>Chiapas</string>
+			<key>nombre</key>
+			<string>Sen. Melgar Bravo  Luis Armando </string>
+			<key>partido</key>
+			<string>PVEM</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=537</string>
+			<key>estado</key>
+			<string>Chihuahua</string>
+			<key>nombre</key>
+			<string>Sen. Martínez García  Patricio </string>
+			<key>partido</key>
+			<string>PRI</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=539</string>
+			<key>estado</key>
+			<string>Chihuahua</string>
+			<key>nombre</key>
+			<string>Sen. Merodio Reza  Lilia Guadalupe </string>
+			<key>partido</key>
+			<string>PRI</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=561</string>
+			<key>estado</key>
+			<string>Jalisco</string>
+			<key>nombre</key>
+			<string>Sen. Martínez Martínez  José María </string>
+			<key>partido</key>
+			<string>PAN</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=565</string>
+			<key>estado</key>
+			<string>Michoacán</string>
+			<key>nombre</key>
+			<string>Sen. Morón Orozco  Raúl </string>
+			<key>partido</key>
+			<string>PRD</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=579</string>
+			<key>estado</key>
+			<string>San Luis Potosí</string>
+			<key>nombre</key>
+			<string>Sen. Mendoza Díaz  Sonia</string>
+			<key>partido</key>
+			<string>PAN</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=589</string>
+			<key>estado</key>
+			<string>Tabasco</string>
+			<key>nombre</key>
+			<string>Sen. Mayans Canabal  Fernando Enrique</string>
+			<key>partido</key>
+			<string>PRD</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=590</string>
+			<key>estado</key>
+			<string>Tabasco</string>
+			<key>nombre</key>
+			<string>Sen. Mayans Canabal  Humberto Domingo</string>
+			<key>partido</key>
+			<string>PRI</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=592</string>
+			<key>estado</key>
+			<string>Zacatecas</string>
+			<key>nombre</key>
+			<string>Sen. Monreal Ávila  David </string>
+			<key>partido</key>
+			<string>PT</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=639</string>
+			<key>estado</key>
+			<string>Lista Nacional</string>
+			<key>nombre</key>
+			<string>Sen. Mendoza Mendoza  Iris Vianey</string>
+			<key>partido</key>
+			<string>PRD</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=727</string>
+			<key>estado</key>
+			<string>Jalisco</string>
+			<key>nombre</key>
+			<string>Sen. Martínez Espinoza  María Verónica </string>
+			<key>partido</key>
+			<string>PRI</string>
+		</dict>
+	</array>
+	<key>N</key>
+	<array>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=620</string>
+			<key>estado</key>
+			<string>Lista Nacional</string>
+			<key>nombre</key>
+			<string>Sen. Neyra Chávez  Armando </string>
+			<key>partido</key>
+			<string>PRI</string>
+		</dict>
+	</array>
+	<key>O</key>
+	<array>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=512</string>
+			<key>estado</key>
+			<string>Aguascalientes</string>
+			<key>nombre</key>
+			<string>Sen. Orozco Sandoval  Martín</string>
+			<key>partido</key>
+			<string>PAN</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=563</string>
+			<key>estado</key>
+			<string>Michoacán</string>
+			<key>nombre</key>
+			<string>Sen. Orihuela Bárcenas  José Ascención </string>
+			<key>partido</key>
+			<string>PRI</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=593</string>
+			<key>estado</key>
+			<string>Tamaulipas</string>
+			<key>nombre</key>
+			<string>Sen. Ortiz Domínguez  Maki Esther</string>
+			<key>partido</key>
+			<string>PAN</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=624</string>
+			<key>estado</key>
+			<string>Lista Nacional</string>
+			<key>nombre</key>
+			<string>Sen. Ortiz González  Graciela </string>
+			<key>partido</key>
+			<string>PRI</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=753</string>
+			<key>estado</key>
+			<string>Lista Nacional</string>
+			<key>nombre</key>
+			<string>Sen. Ortega Martínez  Ma. del Pilar</string>
+			<key>partido</key>
+			<string>PAN</string>
+		</dict>
+	</array>
+	<key>P</key>
+	<array>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=521</string>
+			<key>estado</key>
+			<string>Campeche</string>
+			<key>nombre</key>
+			<string>Sen. Pozos Lanz  Raúl Aarón </string>
+			<key>partido</key>
+			<string>PRI</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=532</string>
+			<key>estado</key>
+			<string>Colima</string>
+			<key>nombre</key>
+			<string>Sen. Preciado Rodríguez  Jorge Luis </string>
+			<key>partido</key>
+			<string>PAN</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=557</string>
+			<key>estado</key>
+			<string>Hidalgo</string>
+			<key>nombre</key>
+			<string>Sen. Penchyna Grub  David </string>
+			<key>partido</key>
+			<string>PRI</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=558</string>
+			<key>estado</key>
+			<string>Hidalgo</string>
+			<key>nombre</key>
+			<string>Sen. Pedraza Chávez  Isidro </string>
+			<key>partido</key>
+			<string>PRD</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=564</string>
+			<key>estado</key>
+			<string>Michoacán</string>
+			<key>nombre</key>
+			<string>Sen. Pineda Gochi  Ma. del Rocío </string>
+			<key>partido</key>
+			<string>PRI</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=569</string>
+			<key>estado</key>
+			<string>Oaxaca</string>
+			<key>nombre</key>
+			<string>Sen. Pérez Magaña  Eviel</string>
+			<key>partido</key>
+			<string>PRI</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=580</string>
+			<key>estado</key>
+			<string>San Luis Potosí</string>
+			<key>nombre</key>
+			<string>Sen. Pedroza Gaitán  César Octavio</string>
+			<key>partido</key>
+			<string>PAN</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=585</string>
+			<key>estado</key>
+			<string>Sonora</string>
+			<key>nombre</key>
+			<string>Sen. Pavlovich Arellano  Claudia Artemiza</string>
+			<key>partido</key>
+			<string>PRI</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=596</string>
+			<key>estado</key>
+			<string>Tlaxcala</string>
+			<key>nombre</key>
+			<string>Sen. Palafox Gutiérrez  Martha </string>
+			<key>partido</key>
+			<string>PT</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=604</string>
+			<key>estado</key>
+			<string>Zacatecas</string>
+			<key>nombre</key>
+			<string>Sen. Puente Salas  Carlos Alberto</string>
+			<key>partido</key>
+			<string>PVEM</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=632</string>
+			<key>estado</key>
+			<string>Lista Nacional</string>
+			<key>nombre</key>
+			<string>Sen. Padierna Luna  Dolores </string>
+			<key>partido</key>
+			<string>PRD</string>
+		</dict>
+	</array>
+	<key>R</key>
+	<array>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=514</string>
+			<key>estado</key>
+			<string>Aguascalientes</string>
+			<key>nombre</key>
+			<string>Sen. Romo Medina  Miguel </string>
+			<key>partido</key>
+			<string>PRI</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=515</string>
+			<key>estado</key>
+			<string>Baja California</string>
+			<key>nombre</key>
+			<string>Sen. Ruffo Appel  Ernesto </string>
+			<key>partido</key>
+			<string>PAN</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=523</string>
+			<key>estado</key>
+			<string>Campeche</string>
+			<key>nombre</key>
+			<string>Sen. Rosas González  Óscar Román </string>
+			<key>partido</key>
+			<string>PRI</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=529</string>
+			<key>estado</key>
+			<string>Colima</string>
+			<key>nombre</key>
+			<string>Sen. Romero Celis  Mely</string>
+			<key>partido</key>
+			<string>PRI</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=530</string>
+			<key>estado</key>
+			<string>Colima</string>
+			<key>nombre</key>
+			<string>Sen. la Mora  Itzel Sarahí Ríos de</string>
+			<key>partido</key>
+			<string>PRI</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=536</string>
+			<key>estado</key>
+			<string>Chiapas</string>
+			<key>nombre</key>
+			<string>Sen. Robledo Aburto  Zoé</string>
+			<key>partido</key>
+			<string>PRD</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=549</string>
+			<key>estado</key>
+			<string>Guanajuato</string>
+			<key>nombre</key>
+			<string>Sen. Romero Hicks  Juan Carlos </string>
+			<key>partido</key>
+			<string>PAN</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=552</string>
+			<key>estado</key>
+			<string>Guerrero</string>
+			<key>nombre</key>
+			<string>Sen. Ríos Piter  Armando </string>
+			<key>partido</key>
+			<string>PRD</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=553</string>
+			<key>estado</key>
+			<string>Guerrero</string>
+			<key>nombre</key>
+			<string>Sen. Ramírez Hernández  Sofío </string>
+			<key>partido</key>
+			<string>PRD</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=567</string>
+			<key>estado</key>
+			<string>Oaxaca</string>
+			<key>nombre</key>
+			<string>Sen. Robles Montoya  Ángel Benjamín</string>
+			<key>partido</key>
+			<string>PRD</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=568</string>
+			<key>estado</key>
+			<string>Oaxaca</string>
+			<key>nombre</key>
+			<string>Sen. Romero Lainas  Adolfo</string>
+			<key>partido</key>
+			<string>PRD</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=615</string>
+			<key>estado</key>
+			<string>Lista Nacional</string>
+			<key>nombre</key>
+			<string>Sen. Rojas Hernández  Laura Angélica </string>
+			<key>partido</key>
+			<string>PAN</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=625</string>
+			<key>estado</key>
+			<string>Lista Nacional</string>
+			<key>nombre</key>
+			<string>Sen. Romero Deschamps  Carlos</string>
+			<key>partido</key>
+			<string>PRI</string>
+		</dict>
+	</array>
+	<key>S</key>
+	<array>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=525</string>
+			<key>estado</key>
+			<string>Coahuila</string>
+			<key>nombre</key>
+			<string>Sen. Salazar Fernández  Luis Fernando </string>
+			<key>partido</key>
+			<string>PAN</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=527</string>
+			<key>estado</key>
+			<string>Morelos</string>
+			<key>nombre</key>
+			<string>Sen. Salazar Solorio  Rabindranath</string>
+			<key>partido</key>
+			<string>PRD</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=571</string>
+			<key>estado</key>
+			<string>Puebla</string>
+			<key>nombre</key>
+			<string>Sen. Saldaña Pérez  María Lucero</string>
+			<key>partido</key>
+			<string>PRI</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=610</string>
+			<key>estado</key>
+			<string>Lista Nacional</string>
+			<key>nombre</key>
+			<string>Sen. Salinas Sada  Ninfa</string>
+			<key>partido</key>
+			<string>PVEM</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=622</string>
+			<key>estado</key>
+			<string>Lista Nacional</string>
+			<key>nombre</key>
+			<string>Sen. San Román  Layda Sansores</string>
+			<key>partido</key>
+			<string>MC</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=623</string>
+			<key>estado</key>
+			<string>Lista Nacional</string>
+			<key>nombre</key>
+			<string>Sen. Sánchez García  Gerardo </string>
+			<key>partido</key>
+			<string>PRI</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=631</string>
+			<key>estado</key>
+			<string>Lista Nacional</string>
+			<key>nombre</key>
+			<string>Sen. Sánchez Jiménez  Luis </string>
+			<key>partido</key>
+			<string>PRD</string>
+		</dict>
+	</array>
+	<key>T</key>
+	<array>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=548</string>
+			<key>estado</key>
+			<string>Guanajuato</string>
+			<key>nombre</key>
+			<string>Sen. Torres Graciano  Fernando </string>
+			<key>partido</key>
+			<string>PAN</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=574</string>
+			<key>estado</key>
+			<string>Querétaro</string>
+			<key>nombre</key>
+			<string>Sen. Torres Peimbert  María Marcela</string>
+			<key>partido</key>
+			<string>PAN</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=581</string>
+			<key>estado</key>
+			<string>San Luis Potosí</string>
+			<key>nombre</key>
+			<string>Sen. Torres Corzo  Teófilo</string>
+			<key>partido</key>
+			<string>PRI</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=605</string>
+			<key>estado</key>
+			<string>Zacatecas</string>
+			<key>nombre</key>
+			<string>Sen. Tello Cristerna  Alejandro </string>
+			<key>partido</key>
+			<string>PRI</string>
+		</dict>
+	</array>
+	<key>V</key>
+	<array>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=611</string>
+			<key>estado</key>
+			<string>Lista Nacional</string>
+			<key>nombre</key>
+			<string>Sen. Vega Casillas  Salvador </string>
+			<key>partido</key>
+			<string>PAN</string>
+		</dict>
+	</array>
+	<key>Y</key>
+	<array>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=598</string>
+			<key>estado</key>
+			<string>Veracruz</string>
+			<key>nombre</key>
+			<string>Sen. Yunes Zorrilla  José Francisco </string>
+			<key>partido</key>
+			<string>PRI</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=599</string>
+			<key>estado</key>
+			<string>Veracruz</string>
+			<key>nombre</key>
+			<string>Sen. Yunes Landa  Héctor </string>
+			<key>partido</key>
+			<string>PRI</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=600</string>
+			<key>estado</key>
+			<string>Veracruz</string>
+			<key>nombre</key>
+			<string>Sen. Yunes Márquez  Fernando</string>
+			<key>partido</key>
+			<string>PAN</string>
+		</dict>
+	</array>
+</dict>
+</plist>

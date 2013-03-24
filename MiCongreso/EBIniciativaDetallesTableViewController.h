@@ -8,9 +8,11 @@
 
 #import <UIKit/UIKit.h>
 #import "EBIniciativa.h"
+#import "EBEstadoIniciativaViewController.h"
 
-@interface EBIniciativaDetallesTableViewController : UITableViewController{
+@interface EBIniciativaDetallesTableViewController : UITableViewController<EBIniciativaDelegate>{
     EBIniciativa *iniciativa;
+    BOOL didVote;
     
 }
 

@@ -13,9 +13,36 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    [[UITabBar appearance]setBackgroundImage:[UIImage imageNamed:@"tabBar.png"]];
+    [[UITabBar appearance]setSelectedImageTintColor:[UIColor whiteColor]];
+    [[UINavigationBar appearance]setBackgroundImage:[UIImage imageNamed:@"navBar.png"] forBarMetrics:UIBarMetricsDefault];
+    [[UIBarButtonItem appearance]setTintColor:[UIColor colorWithRed:0.843 green:0.601 blue:0.290 alpha:1.000]];
+    
+    
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+    NSString *documentsDirectory = [paths objectAtIndex:0];
+    NSString *pathSenadores = [documentsDirectory stringByAppendingString:@"/senadores.plist"];
+    NSString *pathDiputados = [documentsDirectory stringByAppendingString:@"/diputados.plist"];
+    
+    NSFileManager *fileManager = [NSFileManager defaultManager];
+    
+    if (![[NSFileManager defaultManager] fileExistsAtPath:pathDiputados]){
+        //Copiar archivo
+        NSString *sourceDiputados = [[NSBundle mainBundle] pathForResource:@"diputados" ofType:@"plist"];
+        [fileManager copyItemAtPath:sourceDiputados toPath:pathDiputados error:nil];
+    }
+    
+    if (![[NSFileManager defaultManager] fileExistsAtPath:pathSenadores]){
+        //Copiar archivo
+        NSString *sourceSenadores = [[NSBundle mainBundle] pathForResource:@"senadores" ofType:@"plist"];
+        [fileManager copyItemAtPath:sourceSenadores toPath:pathSenadores error:nil];
+    }
+    
     return YES;
+    
 }
-							
+
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

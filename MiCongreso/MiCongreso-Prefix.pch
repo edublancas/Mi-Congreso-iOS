@@ -12,3 +12,8 @@
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
 #endif
+
+typedef enum {
+    kDiputado,
+    kSenador,
+} kCongresista;

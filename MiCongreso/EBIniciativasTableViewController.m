@@ -35,7 +35,7 @@
     
     font = [UIFont boldSystemFontOfSize:kFontSize];
     
-    self.navigationItem.title = @"Iniciativas en curul501.org";
+    self.navigationItem.title = @"Iniciativas en Curul501";
     
     iniciativas = [[NSMutableArray alloc]init];
     [SVStatusHUD showWithImage:[UIImage imageNamed:@"update.png"] status:@"Cargando..." duration:3];
@@ -132,13 +132,7 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    // Navigation logic may go here. Create and push another view controller.
-    
-    //EBIniciativaDetallesTableViewController *detailViewController = [[EBIniciativaDetallesTableViewController alloc]init];
-    
-    //detailViewController.iniciativa = [iniciativas objectAtIndex:indexPath.row];
-    
-     //[self.navigationController pushViewController:detailViewController animated:YES];
+    //NSLog(@"%@", [[iniciativas objectAtIndex:indexPath.row]recursosAdicionales]);
     [self performSegueWithIdentifier:@"details" sender:[iniciativas objectAtIndex:indexPath.row]];
 }
 

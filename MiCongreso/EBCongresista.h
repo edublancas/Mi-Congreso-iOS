@@ -9,24 +9,36 @@
 #import <Foundation/Foundation.h>
 #import "TFHppleElement.h"
 #import "TFHpple.h"
+#import <Foundation/Foundation.h>
 
-typedef enum {
-    kDiputado,
-    kSenador,
-} kCongresista;
+@protocol EBCongresistaDelegate
+-(void)didUpdateDetails;
+@end
 
 
 @interface EBCongresista : NSObject{
+    
+    //Básicos
     NSString *nombre;
-    NSString *direccion;
-    NSString *telefono;
-    NSString *email;
-    NSString *suplente;
     NSString *partido;
     NSString *estado;
     unsigned int tipo;
+    BOOL detallesDisponibles;
+    
+    //URl para descargar más información
+    NSString *detallesString;
+    
+    //Detalles
+    NSString *email;
+    NSString *suplente;
     NSURL *imagen;
-    NSURL *detalles;
+    
+    //Detalles - sólo senadores
+    NSString *direccion;
+    NSString *telefono;
+    
+    //Delegate
+    id <EBCongresistaDelegate> delegate;
 }
 
 @property(nonatomic, retain)NSString *nombre;
@@ -35,12 +47,18 @@ typedef enum {
 @property(nonatomic, retain)NSString *email;
 @property(nonatomic, retain)NSString *suplente;
 @property(nonatomic, assign)unsigned int tipo;
+@property(nonatomic, assign)BOOL detallesDisponibles;
 @property(nonatomic, retain)NSURL *imagen;
 @property(nonatomic, retain)NSString *partido;
 @property(nonatomic, retain)NSString *estado;
-@property(nonatomic, retain)NSURL *detalles;
+@property(nonatomic, retain)NSString *detallesString;
+@property(nonatomic, retain)id <EBCongresistaDelegate> delegate;
 
-- (id) initWithElement:(TFHppleElement *)element;
+
+-(id)initWithElement:(TFHppleElement *)element;
+-(id)initWithCongresoRestDic:(NSDictionary *)dic;
+-(id)initWithDic:(NSDictionary *)plistDic type:(NSUInteger)type;
 -(void)descargarDetalles;
+-(NSDictionary *)exportAsDictionary;
 
 @end

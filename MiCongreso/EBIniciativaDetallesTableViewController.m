@@ -9,8 +9,8 @@
 #import "EBIniciativaDetallesTableViewController.h"
 
 #define kFontSize 15.0f
-#define kTopMargin 5.0f
-#define kBottomMargin 5.0f
+#define kTopMargin 10.0f
+#define kBottomMargin 10.0f
 
 @interface EBIniciativaDetallesTableViewController ()
 
@@ -21,6 +21,10 @@
 @synthesize iniciativa;
 
 
+-(void)didUpdateDetails{
+    NSLog(@"Did update %d", iniciativa.localTotalVotos);
+    [self.tableView reloadSections:[NSIndexSet indexSetWithIndex:6] withRowAnimation:UITableViewRowAnimationAutomatic];
+}
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -35,6 +39,8 @@
 {
     [super viewDidLoad];
 
+    iniciativa.delegate = self;
+    
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
  
@@ -42,6 +48,10 @@
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
     
     self.navigationItem.title = @"Detalles";
+}
+
+-(void)viewDidDisappear:(BOOL)animated{
+    iniciativa.delegate = nil;
 }
 
 - (void)didReceiveMemoryWarning
@@ -55,7 +65,7 @@
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
     // Return the number of sections.
-    return 6;
+    return 8;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
@@ -63,17 +73,22 @@
     // Return the number of rows in the section.
     switch (section) {
         case 4:
+            return [iniciativa.recursosAdicionales count];
+        case 5:
             if (iniciativa.plenoAbstenciones && iniciativa.plenoAFavor && iniciativa.plenoEnContra) {
                 return 3;
             }else{
                 return 1;
             }
-            break;
-        case 5:
-            return 2;
+        case 6:
+            return 3;
+        case 7:
+            if(!didVote)
+                return 2;
+            else
+                return 1;
         default:
             return 1;
-            break;
     }
 }
 
@@ -81,25 +96,22 @@
     switch (section) {
         case 0:
             return @"Fecha";
-            break;
         case 1:
             return @"Propuesta por";
-            break;
         case 2:
             return @"Descripción";
-            break;
         case 3:
             return @"Estado de la iniciativa";
-            break;
         case 4:
-            return @"Votación oficial";
-            break;
+            return @"Recursos adicionales";
         case 5:
-            return @"Votación en curul 501";
-            break;
+            return @"Votación oficial";
+        case 6:
+            return @"Votación en Curul501";
+        case 7:
+            return @"Vota la iniciativa en Curul501";
         default:
             return @"";
-            break;
     }
 }
 
@@ -109,12 +121,20 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
     // Configure the cell...
+    cell.textLabel.font = [UIFont boldSystemFontOfSize:16.0f];
+    cell.selectionStyle = UITableViewCellSelectionStyleBlue;
+    cell.textLabel.textAlignment = NSTextAlignmentLeft;
+    cell.accessoryType = UITableViewCellAccessoryNone;
+    
     switch (indexPath.section) {
         case 0:
             cell.textLabel.text = iniciativa.fecha;
             break;
         case 1:
-            cell.textLabel.text = iniciativa.nombreCongresista;
+            if (iniciativa.nombreCongresista)
+                cell.textLabel.text = iniciativa.nombreCongresista;
+            else
+                cell.textLabel.text = @"Información no disponible";
             break;
         case 2:
             cell.textLabel.font = [UIFont boldSystemFontOfSize:kFontSize];
@@ -124,8 +144,16 @@
             break;
         case 3:
             cell.textLabel.text = iniciativa.estado;
+            cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
             break;
         case 4:
+            cell.textLabel.text = [[iniciativa.recursosAdicionales objectAtIndex:indexPath.row]objectForKey:@"nombre"];
+            cell.textLabel.font = [UIFont boldSystemFontOfSize:kFontSize];
+            cell.textLabel.numberOfLines = 10;
+            cell.textLabel.lineBreakMode = NSLineBreakByWordWrapping;
+            cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+            break;
+        case 5:
             if (iniciativa.plenoAbstenciones && iniciativa.plenoAFavor && iniciativa.plenoEnContra) {
                 switch (indexPath.row) {
                     case 0:
@@ -145,16 +173,35 @@
             }
             
             break;
-        case 5:
+        case 6:
             switch (indexPath.row) {
                 case 0:
-                    cell.textLabel.text = [NSString stringWithFormat:@"Votos a favor: %d", iniciativa.localAFavor];
+                    cell.textLabel.text = [NSString stringWithFormat:@"Porcentaje a favor: %d%%", iniciativa.localAFavorPorcentaje];
                     break;
                 case 1:
-                    cell.textLabel.text = [NSString stringWithFormat:@"Votos en contra: %d", iniciativa.localEnContra];
+                    cell.textLabel.text = [NSString stringWithFormat:@"Porcentaje en contra: %d%%", iniciativa.localEnContraPorcentaje];
+                    break;
+                case 2:                
+                    cell.textLabel.text = [NSString stringWithFormat:@"Número de votos: %d", iniciativa.localTotalVotos];
                     break;
                 default:
                     break;
+            }
+            break;
+        case 7:
+            cell.textLabel.textAlignment = NSTextAlignmentCenter;
+            if (!didVote) {
+                switch (indexPath.row) {
+                    case 0:
+                        cell.textLabel.text = @"Votar a favor";
+                        break;
+                    case 1:
+                        cell.textLabel.text = @"Votar a en contra";
+                    default:
+                        break;
+                }
+            }else{
+                cell.textLabel.text = @"¡Gracias por votar!";
             }
             break;
         default:
@@ -168,6 +215,12 @@
 	if (indexPath.section==2) {
         CGSize maxSize = CGSizeMake(280.0f, 200.0f);
         CGSize size = [iniciativa.descripcion sizeWithFont:[UIFont boldSystemFontOfSize:kFontSize] constrainedToSize:maxSize lineBreakMode:NSLineBreakByWordWrapping];
+        
+        return size.height+kTopMargin+kBottomMargin;
+        
+    }else if(indexPath.section==4){
+        CGSize maxSize = CGSizeMake(250.0f, 200.0f);
+        CGSize size = [[[iniciativa.recursosAdicionales objectAtIndex:indexPath.row]objectForKey:@"nombre"] sizeWithFont:[UIFont boldSystemFontOfSize:kFontSize] constrainedToSize:maxSize lineBreakMode:NSLineBreakByWordWrapping];
         
         return size.height+kTopMargin+kBottomMargin;
         
@@ -219,13 +272,51 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    // Navigation logic may go here. Create and push another view controller.
-    /*
-     <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
-     // ...
-     // Pass the selected object to the new view controller.
-     [self.navigationController pushViewController:detailViewController animated:YES];
-     */
+    
+    [self.tableView deselectRowAtIndexPath:indexPath animated:YES];
+    if (indexPath.section==7) {
+        if (!didVote) {
+            if (indexPath.row==0) {
+                //Vote up
+                [iniciativa voteUp];
+            }else{
+                //Vote down
+                [iniciativa voteDown];
+            }
+            
+            UIAlertView *alert = [[UIAlertView alloc]
+                                  initWithTitle:@"¡Gracias!"
+                                  message:@"Tu voto ha sido registrado"
+                                  delegate:self
+                                  cancelButtonTitle:@"OK"
+                                  otherButtonTitles:nil];
+            
+            [alert show];
+            didVote = YES;
+            [iniciativa descargarDetalles];
+            [self.tableView reloadSections:[NSIndexSet indexSetWithIndex:7] withRowAnimation:UITableViewRowAnimationAutomatic];
+            
+        }else{
+            UIAlertView *alert = [[UIAlertView alloc]
+                                  initWithTitle:@"Aviso"
+                                  message:@"Ya has votado"
+                                  delegate:self
+                                  cancelButtonTitle:@"OK"
+                                  otherButtonTitles:nil];
+            
+            [alert show];
+        }
+        
+    }else if(indexPath.section==4){
+        //Abrir Safari
+        NSURL *url = [NSURL URLWithString:[[iniciativa.recursosAdicionales objectAtIndex:indexPath.row]objectForKey:@"url"]];
+        [[UIApplication sharedApplication] openURL:url];
+    }else if(indexPath.section==3){
+        EBEstadoIniciativaViewController *controller = [[EBEstadoIniciativaViewController alloc]initWithStyle:UITableViewStyleGrouped];
+        controller.estado = iniciativa.estado;
+        [self.navigationController pushViewController:controller animated:YES];
+    }
+    
 }
 
 @end
