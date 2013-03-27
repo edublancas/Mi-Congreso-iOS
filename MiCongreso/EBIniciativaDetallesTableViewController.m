@@ -42,7 +42,8 @@
 
 -(void)didUpdateDetails{
     NSLog(@"Did update %d", iniciativa.localTotalVotos);
-    [self.tableView reloadSections:[NSIndexSet indexSetWithIndex:6] withRowAnimation:UITableViewRowAnimationAutomatic];
+    //[self.tableView reloadSections:[NSIndexSet indexSetWithIndex:6] withRowAnimation:UITableViewRowAnimationAutomatic];
+    [self.tableView reloadData];
 }
 
 - (id)initWithStyle:(UITableViewStyle)style

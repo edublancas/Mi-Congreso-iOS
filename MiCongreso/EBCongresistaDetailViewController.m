@@ -37,13 +37,14 @@
 
 
 -(void)didUpdateDetails{
-    if (congresista.tipo==kSenador) {
+    /*if (congresista.tipo==kSenador) {
         NSIndexSet *indexSet = [NSIndexSet indexSetWithIndexesInRange:NSMakeRange(3, 4)];
         [self.tableView insertSections:indexSet withRowAnimation:UITableViewRowAnimationAutomatic];
     }else{
         NSIndexSet *indexSet = [NSIndexSet indexSetWithIndexesInRange:NSMakeRange(3, 2)];
         [self.tableView insertSections:indexSet withRowAnimation:UITableViewRowAnimationAutomatic];
-    }
+    }*/
+    [self.tableView reloadData];
     [self downloadImage];
 }
 
@@ -95,6 +96,7 @@
     self.navigationItem.title = @"Detalles";
     
     congresista.delegate = self;
+    NSLog(@"Descargando detalles...");
     [congresista descargarDetalles];
     
     //NSLog(@"Detalles: %@", congresista.detallesString);
