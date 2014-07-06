@@ -2,7 +2,7 @@
 //  EBIniciativa.m
 //  MiCongreso
 //
-//  Created by Edu on 16/03/13.
+
 //  Copyright (c) 2013 Eduardo Blancas https://github.com/edublancas
 //
 //  MIT LICENSE
@@ -64,14 +64,13 @@ plenoAFavor, plenoEnContra, localTotalVotos,recursosAdicionales, delegate;
         
         self.identificadorDeIniciativa = [[[[content firstChildWithClassName:@"iniciativa_icon"]firstChildWithTagName:@"a"]objectForKey:@"href"]stringByReplacingOccurrencesOfString:@"/iniciativas/" withString:@""];
         
-        [self descargarDetalles];
-       
         
     }
     return self;
 }
 
 -(void)descargarDetalles{
+    [[EBProgressIndicator sharedProgressIndicator]addProcessToQueue];
     NSURL *detailsURL = [NSURL URLWithString:[NSString stringWithFormat:@"http://curul501.org/iniciativas/%@", self.identificadorDeIniciativa]];
     
     [NSURLConnection sendAsynchronousRequest:[NSURLRequest requestWithURL:detailsURL] queue:[NSOperationQueue mainQueue] completionHandler:^(NSURLResponse *response, NSData *data, NSError *error){
@@ -140,10 +139,13 @@ plenoAFavor, plenoEnContra, localTotalVotos,recursosAdicionales, delegate;
             
             if ([(NSObject *)self.delegate respondsToSelector:@selector(didUpdateDetails)]) {
                 [self.delegate didUpdateDetails];
+                [[EBProgressIndicator sharedProgressIndicator]removeProcessFromQueue];
             }
         }
-        else if (error)
+        else if (error){
             NSLog(@"%@",error);
+            [[EBProgressIndicator sharedProgressIndicator]removeProcessFromQueue];
+        }
     }];
 }
 

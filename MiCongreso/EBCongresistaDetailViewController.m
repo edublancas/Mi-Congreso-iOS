@@ -2,7 +2,7 @@
 //  EBCongresistaDetailViewController.m
 //  MiCongreso
 //
-//  Created by Edu on 22/03/13.
+
 //  Copyright (c) 2013 Eduardo Blancas https://github.com/edublancas
 //
 //  MIT LICENSE
@@ -44,11 +44,12 @@
         NSIndexSet *indexSet = [NSIndexSet indexSetWithIndexesInRange:NSMakeRange(3, 2)];
         [self.tableView insertSections:indexSet withRowAnimation:UITableViewRowAnimationAutomatic];
     }*/
-    [self.tableView reloadData];
     [self downloadImage];
+    [self.tableView reloadData];
 }
 
 -(void)downloadImage{
+    NSLog(@"Descargando imagen...");
     [NSURLConnection sendAsynchronousRequest:[NSURLRequest requestWithURL:congresista.imagen] queue:[NSOperationQueue mainQueue] completionHandler:^(NSURLResponse *response, NSData *data, NSError *error){
         if (data){
             UIImage *image;
@@ -96,7 +97,8 @@
     self.navigationItem.title = @"Detalles";
     
     congresista.delegate = self;
-    NSLog(@"Descargando detalles...");
+    NSLog(@"Descargando detalles... %@", congresista.detallesString);
+
     [congresista descargarDetalles];
     
     //NSLog(@"Detalles: %@", congresista.detallesString);
@@ -183,7 +185,9 @@
 }
 
 - (NSString *)tableView:(UITableView *)tableView titleForFooterInSection:(NSInteger)section{
-	if (section==6) {
+	if (section==0) {
+        return @"Pulse para conocer más";
+    }else if (section==6) {
         return [NSString stringWithFormat:@"Ext: %@", [[congresista.telefono componentsSeparatedByString:@"Ext:"]objectAtIndex:1]];
     }else{
         return @"";
@@ -212,44 +216,6 @@
     }
 }
 
-/*
-// Override to support conditional editing of the table view.
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    // Return NO if you do not want the specified item to be editable.
-    return YES;
-}
-*/
-
-/*
-// Override to support editing the table view.
-- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    if (editingStyle == UITableViewCellEditingStyleDelete) {
-        // Delete the row from the data source
-        [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
-    }   
-    else if (editingStyle == UITableViewCellEditingStyleInsert) {
-        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-    }   
-}
-*/
-
-/*
-// Override to support rearranging the table view.
-- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath
-{
-}
-*/
-
-/*
-// Override to support conditional rearranging of the table view.
-- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    // Return NO if you do not want the item to be re-orderable.
-    return YES;
-}
-*/
 
 #pragma mark - Table view delegate
 
@@ -257,7 +223,19 @@
 {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     
-    if (indexPath.section==3) {
+    if (indexPath.section==0) {
+        
+        NSString *string = [NSString stringWithFormat:
+                            @"https://www.google.com/search?q=%@", congresista.nombre];
+        NSString *encodedQuery =  [string stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+        NSURL *url = [NSURL URLWithString:encodedQuery];
+        
+        
+        EBBrowserViewController *b = [[EBBrowserViewController alloc]initWithTitle:congresista.nombre andURL:url];
+        
+        [self.navigationController pushViewController:b animated:YES];
+        
+    }else if (indexPath.section==3) {
         Class mailClass = (NSClassFromString(@"MFMailComposeViewController"));
         if (mailClass != nil)
         {

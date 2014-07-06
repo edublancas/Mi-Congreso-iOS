@@ -2,7 +2,7 @@
 //  EBIniciativaDetallesTableViewController.m
 //  MiCongreso
 //
-//  Created by Edu on 17/03/13.
+
 //  Copyright (c) 2013 Eduardo Blancas https://github.com/edublancas
 //
 //  MIT LICENSE
@@ -60,6 +60,7 @@
 {
     [super viewDidLoad];
     self.navigationItem.title = @"Detalles";
+    [iniciativa descargarDetalles];
 }
 
 
@@ -308,15 +309,7 @@
                 didUpVote = NO;
             }
             
-            UIAlertView *alert = [[UIAlertView alloc]
-                                  initWithTitle:@"¡Gracias!"
-                                  message:@"Tu voto ha sido registrado"
-                                  delegate:self
-                                  cancelButtonTitle:@"OK"
-                                  otherButtonTitles:nil];
-            alert.tag = 0;
-            
-            [alert show];
+
             didVote = YES;
             [self.tableView reloadSections:[NSIndexSet indexSetWithIndex:7] withRowAnimation:UITableViewRowAnimationAutomatic];
             
@@ -337,7 +330,24 @@
     }else if(indexPath.section==4){
         //Abrir Safari
         NSURL *url = [NSURL URLWithString:[[iniciativa.recursosAdicionales objectAtIndex:indexPath.row]objectForKey:@"url"]];
-        [[UIApplication sharedApplication] openURL:url];
+        
+        NSString *title = [[[tableView cellForRowAtIndexPath:indexPath]textLabel]text];
+        
+        
+        EBBrowserViewController *browser = [[EBBrowserViewController alloc]initWithTitle:title andURL:url];
+        
+        
+        if ([[url absoluteString] rangeOfString:@".pdf"].location == NSNotFound) {
+            //File is not pdf
+            browser.showMobilizerSwitch = YES;
+        } else {
+            //File is pdf
+            browser.showMobilizerSwitch = NO;
+        }
+        
+        [self.navigationController pushViewController:browser animated:YES];
+        
+        
     }else if(indexPath.section==3){
         EBEstadoIniciativaViewController *controller = [[EBEstadoIniciativaViewController alloc]initWithStyle:UITableViewStyleGrouped];
         controller.estado = iniciativa.estado;

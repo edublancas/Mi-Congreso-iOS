@@ -2,7 +2,7 @@
 //  main.m
 //  MiCongreso
 //
-//  Created by Edu on 16/03/13.
+
 //  Copyright (c) 2013 Eduardo Blancas https://github.com/edublancas
 //
 //  MIT LICENSE

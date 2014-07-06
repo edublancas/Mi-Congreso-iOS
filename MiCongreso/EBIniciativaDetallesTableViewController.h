@@ -2,7 +2,7 @@
 //  EBIniciativaDetallesTableViewController.h
 //  MiCongreso
 //
-//  Created by Edu on 17/03/13.
+
 //  Copyright (c) 2013 Eduardo Blancas https://github.com/edublancas
 //
 //  MIT LICENSE
@@ -30,7 +30,7 @@
 #import "EBEstadoIniciativaViewController.h"
 #import "Social/Social.h"
 #import <Accounts/Accounts.h>
-
+#import "EBBrowserViewController.h"
 
 
 @interface EBIniciativaDetallesTableViewController : UITableViewController<EBIniciativaDelegate>{

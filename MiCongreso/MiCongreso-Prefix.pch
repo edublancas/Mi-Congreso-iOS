@@ -17,3 +17,10 @@ typedef enum {
     kDiputado,
     kSenador,
 } kCongresista;
+
+#import "EBProgressIndicator.h"
+
+
+#define kDiputadosBaseURL @("http://www.diputados.gob.mx/")
+#define kDiputadosBaseURLsitl @("http://sitl.diputados.gob.mx/")
+#define kSenadoresBaseURL @("http://www.senado.gob.mx/")

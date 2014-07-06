@@ -2,7 +2,7 @@
 //  EBIniciativasTableViewController.h
 //  MiCongreso
 //
-//  Created by Edu on 17/03/13.
+
 //  Copyright (c) 2013 Eduardo Blancas https://github.com/edublancas
 //
 //  MIT LICENSE
@@ -29,6 +29,9 @@
 #import "TFHpple.h"
 #import "EBIniciativa.h"
 #import "EBIniciativaDetallesTableViewController.h"
+#import "AboutViewController.h"
+#import "SVProgressHUD.h"
+#import "Reachability.h"
 #import "SVStatusHUD.h"
 
 @interface EBIniciativasTableViewController : UITableViewController<UITableViewDelegate, UITableViewDataSource>{
@@ -36,9 +39,13 @@
     UIFont *font;
     int numeroDePaginasMostradas;
     BOOL isLoading;
+    Reachability *reach;
 }
 
 
 -(void)cargarIniciativas;
+-(void)aboutView;
+
+
 
 @end

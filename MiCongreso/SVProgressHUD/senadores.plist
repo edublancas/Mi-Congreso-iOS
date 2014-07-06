@@ -1,0 +1,2566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>A</key>
+	<array>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=535</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 04 Oficina 01,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>roberto.albores@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Chiapas</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/roberto_armando_albores_gleason.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Albores Gleason  Roberto Armando </string>
+			<key>partido</key>
+			<string>PRI</string>
+			<key>suplente</key>
+			<string> Rubén Antonio Zuarth Esquinca</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3556,3349</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=547</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 06 Oficina 16,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>j.aispuro@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Durango</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/jose_rosas_aispuro_torres.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Aispuro Torres  José Rosas </string>
+			<key>partido</key>
+			<string>PAN</string>
+			<key>suplente</key>
+			<string> Héctor David Flores Ávalos</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3011,3553</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=555</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 04 Oficina 03,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>ivonnealvarez@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Nuevo León</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/ivonne_liliana_alvarez_garcia.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Álvarez García  Ivonne Liliana</string>
+			<key>partido</key>
+			<string>PRI</string>
+			<key>suplente</key>
+			<string> Mayela María de Lourdes  Quiroga Tamez</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:2373,2211</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=570</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 04 Oficina 02,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>blanca.alcala@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Puebla</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/blanca_maria_del_socorro_alcala_ruiz.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Alcalá Ruiz  Blanca María del Socorro</string>
+			<key>partido</key>
+			<string>PRI</string>
+			<key>suplente</key>
+			<string> María del Carmen  Izaguirre Francos</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:5383,3440</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=583</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 04 Oficina 04,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>daniel.amador@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Sinaloa</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/daniel_amador_gaxiola.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Amador Gaxiola  Daniel</string>
+			<key>partido</key>
+			<string>PRI</string>
+			<key>suplente</key>
+			<string> Manuel Esteban  Tarriba Urtuzuástegui</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3341,3993,3450</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=601</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 06 Oficina 26,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>daniel.avila@pan.senado.gob.mx</string>
+			<key>estado</key>
+			<string>Yucatán</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/daniel_gabriel_avila_ruiz.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Ávila Ruiz  Daniel Gabriel </string>
+			<key>partido</key>
+			<string>PAN</string>
+			<key>suplente</key>
+			<string> Loreto Noemí  Villanueva Trujillo</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3327</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=603</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 04 Oficina 06,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>angelica.araujo@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Yucatán</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/angelica_del_rosario_araujo_lara.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Araujo Lara  Angélica del Rosario </string>
+			<key>partido</key>
+			<string>PRI</string>
+			<key>suplente</key>
+			<string> Alaine Patricia  López Briceño</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3036</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=627</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 05 Oficina 21,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>monica.arriola@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Lista Nacional</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/monica_tzasna_arriola_gordillo.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Arriola Gordillo  Mónica Tzasna</string>
+			<key>partido</key>
+			<string>NA</string>
+			<key>suplente</key>
+			<string> Manuel Cárdenas Fonseca</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3302,3237</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=628</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 04 Oficina 07,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>jayala@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Lista Nacional</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/joel_ayala_almeida.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Ayala Almeida  Joel </string>
+			<key>partido</key>
+			<string>PRI</string>
+			<key>suplente</key>
+			<string> Alfredo Villegas Arreola</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3257,3694</string>
+		</dict>
+	</array>
+	<key>B</key>
+	<array>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=517</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 05 Oficina 26,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>marcobla@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Baja California</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/marco_antonio_blasquez_salinas.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Blásquez Salinas  Marco Antonio </string>
+			<key>partido</key>
+			<string>PT</string>
+			<key>suplente</key>
+			<string> Daniel Solorio Ramírez</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3246,3850,3925</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=518</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 04 Oficina 08,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>rbarroso@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Baja California Sur</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/ricardo_barroso_agramont.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Barroso Agramont  Ricardo </string>
+			<key>partido</key>
+			<string>PRI</string>
+			<key>suplente</key>
+			<string> Ángel Salvador Ceseña Burgoin</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3628,3210</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=541</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 03 Oficina 19,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>alejandra.barrales@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Distrito Federal</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/maria_alejandra_barrales_magdaleno.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Barrales Magdaleno  María Alejandra</string>
+			<key>partido</key>
+			<string>PRD</string>
+			<key>suplente</key>
+			<string> Martha Angélica  Tagle Martínez</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:5390</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=575</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 04 Oficina 09,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>eburgosg@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Querétaro</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/enrique_burgos_garcia.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Burgos García  Enrique</string>
+			<key>partido</key>
+			<string>PRI</string>
+			<key>suplente</key>
+			<string> Jorge  García Quiroz</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:5199,3048</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=578</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 03 Oficina 02,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>luz.beristain@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Quintana Roo</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/luz_maria_beristain_navarrete.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Beristain Navarrete  Luz María</string>
+			<key>partido</key>
+			<string>PRD</string>
+			<key>suplente</key>
+			<string> Alfonsina  Sánchez Cruz</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3144,5396</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=587</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 05 Oficina 28,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>francisco.burquez@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Sonora</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/francisco_de_paula_burquez_valenzuela.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Búrquez Valenzuela  Francisco de Paula</string>
+			<key>partido</key>
+			<string>PAN</string>
+			<key>suplente</key>
+			<string> Martha Patricia  Espinoza Casillas</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3933,3999</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=618</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 03 Oficina ,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>mariaelena@senado.gob.mx</string>
+			<key>estado</key>
+			<string>México</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/maria_elena_barrera_tapia.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Barrera Tapia  María Elena </string>
+			<key>partido</key>
+			<string>PVEM</string>
+			<key>suplente</key>
+			<string> Martha Vianey Luque Inzunza</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:5398,5439</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=629</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 03 Oficina 06,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>miguel.barbosa@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Lista Nacional</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/luis_miguel_geronimo_barbosa_huerta.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Barbosa Huerta  Luis Miguel Gerónimo </string>
+			<key>partido</key>
+			<string>PRD</string>
+			<key>suplente</key>
+			<string> Marlon Berlanga Sánchez</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3158,3116</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=634</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 1 Oficina 7,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>mbartlett@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Lista Nacional</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/manuel_bartlett_diaz.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Bartlett Díaz  Manuel </string>
+			<key>partido</key>
+			<string>PT</string>
+			<key>suplente</key>
+			<string> Francisco Amadeo Espinosa Ramos</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:5479,5461</string>
+		</dict>
+	</array>
+	<key>C</key>
+	<array>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=534</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 04 Oficina 14,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>cotanayarit@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Nayarit</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/manuel_cota_humberto_jimenez.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Cota Jiménez  Manuel Humberto </string>
+			<key>partido</key>
+			<string>PRI</string>
+			<key>suplente</key>
+			<string> Raymundo  García Chávez</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3342,3451</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=540</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 06 Oficina 30,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>javier.corral@pan.senado.gob.mx</string>
+			<key>estado</key>
+			<string>Chihuahua</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/javier_corral_jurado.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Corral Jurado  Javier </string>
+			<key>partido</key>
+			<string>PAN</string>
+			<key>suplente</key>
+			<string> Sylvia Leticia  Martínez Elizondo</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3035,3432,3527</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=551</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 04 Oficina 13,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>mchicoh@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Guanajuato</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/miguel_angel_chico_herrera.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Chico Herrera  Miguel Ángel </string>
+			<key>partido</key>
+			<string>PRI</string>
+			<key>suplente</key>
+			<string> Bonifacio  Rodríguez Olivares</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3204</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=560</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 04 Oficina 10,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>jesus.casillas@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Jalisco</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/jesus_casillas_romero.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Casillas Romero  Jesús </string>
+			<key>partido</key>
+			<string>PRI</string>
+			<key>suplente</key>
+			<string> Hugo  Contreras Zepeda</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3183,3159</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=594</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 04 Oficina 11,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>manuel.cavazos@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Tamaulipas</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/manuel_cavazos_lerma.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Cavazos Lerma  Manuel</string>
+			<key>partido</key>
+			<string>PRI</string>
+			<key>suplente</key>
+			<string> José Francisco  Rábago Castillo</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3359y3978</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=595</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 03 Oficina 12,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>lorena.cuellar@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Tlaxcala</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/lorena_cuellar_cisneros.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Cuéllar Cisneros  Lorena </string>
+			<key>partido</key>
+			<string>PRD</string>
+			<key>suplente</key>
+			<string> Alejandra  Roldán Benítez</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3198</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=606</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso P.B. Oficina ,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>mesadirectiva@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Lista Nacional</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/ernesto_cordero_arroyo.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Cordero Arroyo  Ernesto Javier</string>
+			<key>partido</key>
+			<string>PAN</string>
+			<key>suplente</key>
+			<string> Elia Hernández Núñez</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:2205,2206</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=609</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 06 Oficina 08,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>lcalderonh@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Lista Nacional</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/luisa_maria_de_guadalupe_calderon_hinojosa.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Calderón Hinojosa  Luisa María</string>
+			<key>partido</key>
+			<string>PAN</string>
+			<key>suplente</key>
+			<string> Lizette Clavel Sánchez</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3234,3005,3612</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=612</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 06 Oficina 29,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>gabriela.cuevas@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Lista Nacional</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/gabriela_cuevas_barron.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Cuevas Barrón  Gabriela </string>
+			<key>partido</key>
+			<string>PAN</string>
+			<key>suplente</key>
+			<string> Blanca Belia Márquez Espinoza</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3213,3214</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=633</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 03 Oficina 03,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>manuel.camacho@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Lista Nacional</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/victor_manuel_camacho_solis.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Camacho Solís  Víctor Manuel </string>
+			<key>partido</key>
+			<string>PRD</string>
+			<key>suplente</key>
+			<string> Luis Humberto Fernández Fuentes</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3196,5223</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=638</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 04 Oficina 12,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>rcervantes@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Lista Nacional</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/raul_cervantes_andrade.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Cervantes Andrade  Raúl</string>
+			<key>partido</key>
+			<string>PRI</string>
+			<key>suplente</key>
+			<string> Ricardo Urzua Rivera</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3404</string>
+		</dict>
+	</array>
+	<key>D</key>
+	<array>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=522</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 03 Oficina 16,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>fidel.demedicis@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Morelos</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/fidel_demedicis_hidalgo.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Demédicis Hidalgo  Fidel </string>
+			<key>partido</key>
+			<string>PRD</string>
+			<key>suplente</key>
+			<string> Eduardo Ernesto  Carrasco Zanini Castillo</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3561,5094</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=542</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 03 Oficina 08,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>mario.delgado@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Distrito Federal</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/mario_martin_delgado_carrillo.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Delgado Carrillo  Mario</string>
+			<key>partido</key>
+			<string>PRD</string>
+			<key>suplente</key>
+			<string> Xiuh Guillermo Tenorio Antiga</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3470,3827</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=573</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 06 Oficina 03,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>panchodominguez@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Querétaro</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/francisco_dominguez_servien.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Domínguez Servién  Francisco</string>
+			<key>partido</key>
+			<string>PAN</string>
+			<key>suplente</key>
+			<string> Sonia  Rocha Acosta</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3409,5348</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=597</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 05 Oficina 27,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>adriana.davila@pan.senado.gob.mx</string>
+			<key>estado</key>
+			<string>Tlaxcala</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/adriana_davila_fernandez.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Dávila Fernández  Adriana </string>
+			<key>partido</key>
+			<string>PAN</string>
+			<key>suplente</key>
+			<string> Amelia  Torres López</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:5078,5452</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=602</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 06 Oficina 31,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>rosa.diaz@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Yucatán</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/rosa_adriana_diaz_lisama.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Díaz Lizama  Rosa Adriana </string>
+			<key>partido</key>
+			<string>PAN</string>
+			<key>suplente</key>
+			<string> Elisa Maribel  Valencia Heredia</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3068,5451,3065</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=619</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 04 Oficina 15,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>cristina.diazs09@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Lista Nacional</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/maria_cristina_diaz_salazar.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Díaz Salazar  María Cristina</string>
+			<key>partido</key>
+			<string>PRI</string>
+			<key>suplente</key>
+			<string> María Esther Terán Velázquez</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3345,3454</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=630</string>
+			<key>estado</key>
+			<string>Lista Nacional</string>
+			<key>nombre</key>
+			<string>Sen. Gómez   Angélica  De la Peña</string>
+			<key>partido</key>
+			<string>PRD</string>
+		</dict>
+	</array>
+	<key>E</key>
+	<array>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=543</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 03 Oficina 32,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>pablo.escudero@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Distrito Federal</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/pablo_escudero_morales.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Escudero Morales  Pablo </string>
+			<key>partido</key>
+			<string>PVEM</string>
+			<key>suplente</key>
+			<string> José María  Tapia Franco</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3293,5170</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=636</string>
+			<key>estado</key>
+			<string>México</string>
+			<key>nombre</key>
+			<string>Sen. Rodríguez   Alejandro de Jesús Encinas</string>
+			<key>partido</key>
+			<string>PRD</string>
+		</dict>
+	</array>
+	<key>F</key>
+	<array>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=528</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 04 Oficina 17,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>braulio.fernandez@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Coahuila</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/braulio_manuel_fernandez_aguirre.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Fernández Aguirre  Braulio Manuel </string>
+			<key>partido</key>
+			<string>PRI</string>
+			<key>suplente</key>
+			<string> Tereso Medina Ramírez</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3070,3245</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=538</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 04 Oficina 19,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>margarita.flores@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Nayarit</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/margarita_flores_sanchez.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Flores Sánchez  Margarita</string>
+			<key>partido</key>
+			<string>PRI</string>
+			<key>suplente</key>
+			<string> Michelle Arandine  Barrón Vivanco</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3333,3423,3317</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=556</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 04 Oficina 16,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>omarfayad@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Hidalgo</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/omar_fayad_meneses.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Fayad Meneses  Omar </string>
+			<key>partido</key>
+			<string>PRI</string>
+			<key>suplente</key>
+			<string> omarfayad@senado.gob.mx</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3072,3997</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=613</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 03 Oficina 28,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>gerardo.flores@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Lista Nacional</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/juan_gerardo_flores_ramirez.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Flores Ramírez  Juan Gerardo </string>
+			<key>partido</key>
+			<string>PVEM</string>
+			<key>suplente</key>
+			<string> Pedro Ángel Contreras López</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=637</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 04 Oficina 18,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>hilda.flores@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Lista Nacional</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/hilda_esthela_flores_escalera.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Flores Escalera  Hilda Esthela</string>
+			<key>partido</key>
+			<string>PRI</string>
+			<key>suplente</key>
+			<string> Diana Patricia González Soto</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3284,3506</string>
+		</dict>
+	</array>
+	<key>G</key>
+	<array>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=519</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 04 Oficina 24,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>igonzalez@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Baja California Sur</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/isaias_gonzalez_cuevas.jpg</string>
+			<key>nombre</key>
+			<string>Sen. González Cuevas  Isaías </string>
+			<key>partido</key>
+			<string>PRI</string>
+			<key>suplente</key>
+			<string> Ana Luisa  Yuen Santa Ana</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3283,5116</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=526</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 05 Oficina 32,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>silvia.garza@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Coahuila</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/silvia_guadalupe_garza_galvan.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Garza Galván  Silvia Guadalupe </string>
+			<key>partido</key>
+			<string>PAN</string>
+			<key>suplente</key>
+			<string> Elva Martha  González Pérez</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3337,3446</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=545</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 06 Oficina 01,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>marthaelena@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Nayarit</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/martha_elena_garcia_gomez.jpg</string>
+			<key>nombre</key>
+			<string>Sen. García Gómez  Martha Elena </string>
+			<key>partido</key>
+			<string>PAN</string>
+			<key>suplente</key>
+			<string> Ángela Esmeralda  Ortiz Urciaga</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3388,5073</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=550</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 04 Oficina 25,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>marcela.guerra@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Nuevo León</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/marcela_guerra_castillo.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Guerra Castillo  Marcela</string>
+			<key>partido</key>
+			<string>PRI</string>
+			<key>suplente</key>
+			<string> Eva Patricia  Salazar Marroquín</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3157</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=566</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 06 Oficina 19,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>rgraciag@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Nuevo León</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/raul_gracia_guzman.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Gracia Guzmán  Raúl</string>
+			<key>partido</key>
+			<string>PAN</string>
+			<key>suplente</key>
+			<string> Baltazar  Martínez Montemayor</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3395,5733y5450</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=576</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 03 Oficina 29,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>egonzalezm@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Quintana Roo</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/jorge_emilio_gonzalez_martinez.jpg</string>
+			<key>nombre</key>
+			<string>Sen. González Martínez  Jorge Emilio</string>
+			<key>partido</key>
+			<string>PVEM</string>
+			<key>suplente</key>
+			<string> Jorge  Aréchiga Ávila</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3763,3762</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=577</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 04 Oficina 23,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>felixagc@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Quintana Roo</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/felix_arturo_gonzalez_canto.jpg</string>
+			<key>nombre</key>
+			<string>Sen. González Canto  Félix Arturo</string>
+			<key>partido</key>
+			<string>PRI</string>
+			<key>suplente</key>
+			<string> Cora Amalia  Castilla Madrid</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3281,5105</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=586</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 04 Oficina 20,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>ernesto.gandara@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Sonora</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/ernesto_gandara_camou.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Gándara Camou  Ernesto</string>
+			<key>partido</key>
+			<string>PRI</string>
+			<key>suplente</key>
+			<string> Raúl  Navarro Gallegos</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3433,3185</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=591</string>
+			<key>estado</key>
+			<string>Tamaulipas</string>
+			<key>nombre</key>
+			<string>Sen. de Vaca  Francisco García Cabeza</string>
+			<key>partido</key>
+			<string>PAN</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=607</string>
+			<key>estado</key>
+			<string>Lista Nacional</string>
+			<key>nombre</key>
+			<string>Sen. Campo Gurza  Mariana  Gómez del</string>
+			<key>partido</key>
+			<string>PAN</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=608</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 06 Oficina 27,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>roberto.gil@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Lista Nacional</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/roberto_gil_zuarth.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Gil Zuarth  Roberto </string>
+			<key>partido</key>
+			<string>PAN</string>
+			<key>suplente</key>
+			<string> Adriana Loaiza Garzón</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3084,3569</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=617</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 04 Oficina 05,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>emilio.gamboa@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Lista Nacional</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/emilio_antonio_gamboa_patron.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Gamboa Patrón  Emilio</string>
+			<key>partido</key>
+			<string>PRI</string>
+			<key>suplente</key>
+			<string> Jorge Alberto Juraidini Rumilla</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3274,2340</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=621</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 04 Oficina 21,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>diva.gastelum@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Lista Nacional</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/diva_hadamira_gastelum_bajo.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Gastélum Bajo  Diva Hadamira </string>
+			<key>partido</key>
+			<string>PRI</string>
+			<key>suplente</key>
+			<string> Ofelia Socorro Jasso Nieto</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3309,3410</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=626</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 04 Oficina 22,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>arelygomezg@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Lista Nacional</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/arely_gomez_gonzalez.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Gómez González  Arely</string>
+			<key>partido</key>
+			<string>PRI</string>
+			<key>suplente</key>
+			<string> María Hilaria Domínguez Arvizu</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3813</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=635</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 05 Oficina 23,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>gguevara@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Lista Nacional</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/ana_gabriela_guevara_espinosa.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Guevara Espinoza  Ana Gabriela </string>
+			<key>partido</key>
+			<string>PT</string>
+			<key>suplente</key>
+			<string> María del Rosario Del Castillo Aguilar</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:5339</string>
+		</dict>
+	</array>
+	<key>H</key>
+	<array>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=513</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 06 Oficina 25,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>fernandoh@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Aguascalientes</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/fernando_herrera_avila.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Herrera Ávila  Fernando </string>
+			<key>partido</key>
+			<string>PAN</string>
+			<key>suplente</key>
+			<string> Arturo González Estrada</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3096</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=516</string>
+			<key>estado</key>
+			<string>Baja California</string>
+			<key>nombre</key>
+			<string>Sen. y Celada  Víctor  Hermosillo</string>
+			<key>partido</key>
+			<string>PAN</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=531</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 04 Oficina 27,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>lisbeth.hernandez@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Morelos</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/lisbet_hernandez_lecona.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Hernández Lecona  Lisbeth</string>
+			<key>partido</key>
+			<string>PRI</string>
+			<key>suplente</key>
+			<string> Cecilia Verónica  López González</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3224,5301</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=544</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 04 Oficina 26,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>ismaelhdezderas@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Durango</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/ismael_alfredo_hernandez_deras.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Hernández Deras  Ismael </string>
+			<key>partido</key>
+			<string>PRI</string>
+			<key>suplente</key>
+			<string> Óscar  García Barron</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3228,5122</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=546</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 04 Oficina 28,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>leticia.herrera@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Durango</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/juana_leticia_herrera_ale.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Herrera Ale  Juana Leticia </string>
+			<key>partido</key>
+			<string>PRI</string>
+			<key>suplente</key>
+			<string> Yolanda  de la Torre Valdez</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3184,5303</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=562</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 04 Oficina 29,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>analiliaherrera@senado.gob.mx</string>
+			<key>estado</key>
+			<string>México</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/ana_lilia_herrera_anzaldo.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Herrera Anzaldo  Ana Lilia </string>
+			<key>partido</key>
+			<string>PRI</string>
+			<key>suplente</key>
+			<string> María Lorena Marín Moreno</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3379,5319</string>
+		</dict>
+	</array>
+	<key>I</key>
+	<array>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=582</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 04 Oficina 30,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>aaron.irizar@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Sinaloa</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/aaron_irizar_lopez.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Irízar López  Aarón</string>
+			<key>partido</key>
+			<string>PRI</string>
+			<key>suplente</key>
+			<string> Germán  Escobar Manjarrez</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3340</string>
+		</dict>
+	</array>
+	<key>J</key>
+	<array>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=554</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 04 Oficina 31,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>rene.juarez@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Guerrero</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/rene_juarez_cisneros.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Juárez Cisneros  René </string>
+			<key>partido</key>
+			<string>PRI</string>
+			<key>suplente</key>
+			<string> renejuarezsenador@gmail.com</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3346</string>
+		</dict>
+	</array>
+	<key>L</key>
+	<array>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=524</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 6 Oficina 2,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>jorge.lavalle@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Campeche</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/jorge_luis_lavalle_maury.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Lavalle Maury  Jorge Luis </string>
+			<key>partido</key>
+			<string>PAN</string>
+			<key>suplente</key>
+			<string> María de los Ángeles Terrazo Blanco</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3216</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=572</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 6 Oficina 24,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>javierlozano@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Puebla</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/javier_lozano_alarcon.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Lozano Alarcón  Javier</string>
+			<key>partido</key>
+			<string>PAN</string>
+			<key>suplente</key>
+			<string> Irma Patricia  Leal Islas</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3219</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=584</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 6 Oficina 4,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>flopez.brito@pan.senado.gob.mx</string>
+			<key>estado</key>
+			<string>Sinaloa</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/francisco_salvador_lopez_brito.jpg</string>
+			<key>nombre</key>
+			<string>Sen. López Brito  Francisco Salvador</string>
+			<key>partido</key>
+			<string>PAN</string>
+			<key>suplente</key>
+			<string> Celia Catalina  Frank Aguilar</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3106,5168</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=588</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 3 Oficina 21,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>adanaugusto@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Tabasco</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/adan_augusto_lopez_hernandez.jpg</string>
+			<key>nombre</key>
+			<string>Sen. López Hernández  Adán Augusto</string>
+			<key>partido</key>
+			<string>PRD</string>
+			<key>suplente</key>
+			<string> Carlos Manuel  Merino Campos</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3134,3308</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=616</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 6 Oficina 22,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>hlarios@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Lista Nacional</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/hector_larios_cordova.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Larios Córdova  Héctor </string>
+			<key>partido</key>
+			<string>PAN</string>
+			<key>suplente</key>
+			<string> Agustina Eduwiges García Corrales</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3699,3374</string>
+		</dict>
+	</array>
+	<key>M</key>
+	<array>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=520</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 6 Oficina 32,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>cmendozadavis@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Baja California Sur</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/carlos_mendoza_davis.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Mendoza Davis  Carlos </string>
+			<key>partido</key>
+			<string>PAN</string>
+			<key>suplente</key>
+			<string> Juan Alejandro  Fernández Sánchez Navarro</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3082,3081,3570</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=533</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 3 Oficina 26,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>lamelgar@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Chiapas</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/luis_armando_melgar_bravo.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Melgar Bravo  Luis Armando </string>
+			<key>partido</key>
+			<string>PVEM</string>
+			<key>suplente</key>
+			<string> Juan Carlos Gómez Aranda</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:5434,5435</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=537</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 4 Oficina 32,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>patricio@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Chihuahua</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/patricio_martinez_garcia.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Martínez García  Patricio </string>
+			<key>partido</key>
+			<string>PRI</string>
+			<key>suplente</key>
+			<string> Israel Beltrán Montes</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3552</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=539</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 5 Oficina 17,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>lilia.merodio@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Chihuahua</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/lidia_guadalupe_merodio_reza.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Merodio Reza  Lilia Guadalupe </string>
+			<key>partido</key>
+			<string>PRI</string>
+			<key>suplente</key>
+			<string> Adriana  Terrazas Porras</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3046,5309</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=561</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 6 Oficina 18,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>josemariamartinez@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Jalisco</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/jose_maria_martinez_martinez.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Martínez Martínez  José María </string>
+			<key>partido</key>
+			<string>PAN</string>
+			<key>suplente</key>
+			<string> Juana Elvira Hernández Lozano</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3472</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=565</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 03 Oficina 13,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>rmoron@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Michoacán</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/raul_moron_orozco.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Morón Orozco  Raúl </string>
+			<key>partido</key>
+			<string>PRD</string>
+			<key>suplente</key>
+			<string> Luciano  Borreguín González</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3203,5143,5225</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=579</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 5 Oficina 30,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>sonia.mendoza@senado.gob.mx</string>
+			<key>estado</key>
+			<string>San Luis Potosí</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/sonia_mendoza_diaz.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Mendoza Díaz  Sonia</string>
+			<key>partido</key>
+			<string>PAN</string>
+			<key>suplente</key>
+			<string> Vianey  Montes Colunga</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3403</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=589</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 3 Oficina 5,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>fmayans@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Tabasco</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/fernando_enrique_mayans_canabal.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Mayans Canabal  Fernando Enrique</string>
+			<key>partido</key>
+			<string>PRD</string>
+			<key>suplente</key>
+			<string> Mario Enrique  Morales Romero</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3194,5290</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=590</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 3 Oficina 31,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>hmayansc@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Tabasco</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/humberto_domingo_mayans_canabal.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Mayans Canabal  Humberto Domingo</string>
+			<key>partido</key>
+			<string>PRI</string>
+			<key>suplente</key>
+			<string> Arquímedes  Oramas Vargas</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3473</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=592</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 05 Oficina 24,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>david.monreal@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Zacatecas</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/david_monreal_avila.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Monreal Ávila  David </string>
+			<key>partido</key>
+			<string>PT</string>
+			<key>suplente</key>
+			<string> Héctor Adrián  Menchaca Medrano</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3054</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=639</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 3 Oficina 14,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>imendozam@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Lista Nacional</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/iris_vianey_mendoza.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Mendoza Mendoza  Iris Vianey</string>
+			<key>partido</key>
+			<string>PRD</string>
+			<key>suplente</key>
+			<string> Olivia Coral Arriaga</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3253,5161</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=727</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso  Oficina ,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string></string>
+			<key>estado</key>
+			<string>Jalisco</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/martinez_espinoza.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Martínez Espinoza  María Verónica </string>
+			<key>partido</key>
+			<string>PRI</string>
+			<key>suplente</key>
+			<string> </string>
+			<key>telefono</key>
+			<string>Ext:</string>
+		</dict>
+	</array>
+	<key>N</key>
+	<array>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=620</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 5 Oficina 2,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>aneyra@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Lista Nacional</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/armando_neyra_chavez.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Neyra Chávez  Armando </string>
+			<key>partido</key>
+			<string>PRI</string>
+			<key>suplente</key>
+			<string> José Luis Carazo Preciado</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3088,3567</string>
+		</dict>
+	</array>
+	<key>O</key>
+	<array>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=512</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 6 Oficina 9,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>morozco@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Aguascalientes</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/martin_orozco_sandoval.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Orozco Sandoval  Martín</string>
+			<key>partido</key>
+			<string>PAN</string>
+			<key>suplente</key>
+			<string> José de Jesús Santana García</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3328</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=563</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 5 Oficina 3,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>jose.orihuela@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Michoacán</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/jose_ascension_orihuela_barcenas.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Orihuela Bárcenas  José Ascención </string>
+			<key>partido</key>
+			<string>PRI</string>
+			<key>suplente</key>
+			<string> Agustín  Trujillo Íñiguez</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3320,3605</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=593</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 6 Oficina 17,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>maki.ortiz@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Tamaulipas</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/maki_esther_ortiz_dominguez.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Ortiz Domínguez  Maki Esther</string>
+			<key>partido</key>
+			<string>PAN</string>
+			<key>suplente</key>
+			<string> Andrea  García García</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:5440,3093</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=624</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 5 Oficina 4,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>graciela.ortiz@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Lista Nacional</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/graciela_ortiz_gonzalez.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Ortiz González  Graciela </string>
+			<key>partido</key>
+			<string>PRI</string>
+			<key>suplente</key>
+			<string> Ana Georgina Zapata Lucero</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3497,5203</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=753</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 6 Oficina 12,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>pilar.ortega@pan.senado.gob.mx</string>
+			<key>estado</key>
+			<string>Lista Nacional</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/Ortega_Martinez.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Ortega Martínez  Ma. del Pilar</string>
+			<key>partido</key>
+			<string>PAN</string>
+			<key>suplente</key>
+			<string> </string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3024,5174</string>
+		</dict>
+	</array>
+	<key>P</key>
+	<array>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=521</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 5 Oficina 9,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>rpozos@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Campeche</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/raul_aaron_pozos_lanz.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Pozos Lanz  Raúl Aarón </string>
+			<key>partido</key>
+			<string>PRI</string>
+			<key>suplente</key>
+			<string> Jaqueline  Cuevas Sonia</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3490,5205</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=532</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 6 Oficina 15,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>jpreciado@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Colima</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/jorge_luis_preciado_rodriguez.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Preciado Rodríguez  Jorge Luis </string>
+			<key>partido</key>
+			<string>PAN</string>
+			<key>suplente</key>
+			<string> Irma Zulema Cobián Chávez</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3029,3030</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=557</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 5 Oficina 6,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>dpenchyna@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Hidalgo</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/david_penchyna_grub.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Penchyna Grub  David </string>
+			<key>partido</key>
+			<string>PRI</string>
+			<key>suplente</key>
+			<string> Carmen  Dorantes Martínez</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3166,3565</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=558</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 3 Oficina 15,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>isidro.pedraza@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Hidalgo</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/isidro_pedraza_chavez.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Pedraza Chávez  Isidro </string>
+			<key>partido</key>
+			<string>PRD</string>
+			<key>suplente</key>
+			<string> Arturo  Aparicio Barrios</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3111,5300</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=564</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 5 Oficina 8,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>rocio.pineda@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Michoacán</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/maria_del_rocio_pineda_gochi.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Pineda Gochi  Ma. del Rocío </string>
+			<key>partido</key>
+			<string>PRI</string>
+			<key>suplente</key>
+			<string> Terecita Isabel Cano Higuera</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3087,5332</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=569</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 5 Oficina 7,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>eviel.perez@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Oaxaca</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/eviel_perez_magana.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Pérez Magaña  Eviel</string>
+			<key>partido</key>
+			<string>PRI</string>
+			<key>suplente</key>
+			<string> Jorge  Toledo Luis</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3045,5068</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=580</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 6 Oficina 11,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>octavio.pedroza@senado.gob.mx</string>
+			<key>estado</key>
+			<string>San Luis Potosí</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/cesar_octavio_pedroza_gaitan.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Pedroza Gaitán  César Octavio</string>
+			<key>partido</key>
+			<string>PAN</string>
+			<key>suplente</key>
+			<string> Jacinto  Paz Zúñiga</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3042</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=585</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 5 Oficina 5,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>claudiapavlovich@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Sonora</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/claudia_artemiza_pavlovich_arellano.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Pavlovich Arellano  Claudia Artemiza</string>
+			<key>partido</key>
+			<string>PRI</string>
+			<key>suplente</key>
+			<string> Anabel  Acosta Islas</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3003,3576</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=596</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 05 Oficina 25,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>martha.palafox@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Tlaxcala</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/martha_palafox_gutierrez.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Palafox Gutiérrez  Martha </string>
+			<key>partido</key>
+			<string>PT</string>
+			<key>suplente</key>
+			<string> María de los Ángeles Verónica  González Rodríguez</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3113</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=604</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 03 Oficina 24,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>carlospuente@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Zacatecas</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/carlos_alberto_puente_salas.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Puente Salas  Carlos Alberto</string>
+			<key>partido</key>
+			<string>PVEM</string>
+			<key>suplente</key>
+			<string> Octavio  Rangel Frausto</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3563,4116,4115</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=632</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 3 Oficina 4,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>dolorespadiernaluna@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Lista Nacional</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/dolores_padierna_luna.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Padierna Luna  Dolores </string>
+			<key>partido</key>
+			<string>PRD</string>
+			<key>suplente</key>
+			<string> Emma del Pilar Ferrer del Rio</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3545,5196</string>
+		</dict>
+	</array>
+	<key>R</key>
+	<array>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=514</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 5 Oficina 12,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>miguel.romo@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Aguascalientes</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/miguel_romo_medina.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Romo Medina  Miguel </string>
+			<key>partido</key>
+			<string>PRI</string>
+			<key>suplente</key>
+			<string> Jesús Eduardo Rocha Álvarez</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3463,5206</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=515</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 6 Oficina 23,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>ernesto.ruffo@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Baja California</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/ernesto_ruffo_appel.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Ruffo Appel  Ernesto </string>
+			<key>partido</key>
+			<string>PAN</string>
+			<key>suplente</key>
+			<string> Héctor Askan  Lutteroth del Riego </string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:5217,5359,3268</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=523</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 5 Oficina 13,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>oscarrosas@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Campeche</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/oscar_roman_rosas_gonzalez.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Rosas González  Óscar Román </string>
+			<key>partido</key>
+			<string>PRI</string>
+			<key>suplente</key>
+			<string> Víctor  Salinas Balam</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:5448,3501</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=529</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 5 Oficina 10,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>mely.romero@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Colima</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/mely_romero_celis.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Romero Celis  Mely</string>
+			<key>partido</key>
+			<string>PRI</string>
+			<key>suplente</key>
+			<string> Hilda Ceballos Llerenas</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:5349,3481</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=530</string>
+			<key>estado</key>
+			<string>Colima</string>
+			<key>nombre</key>
+			<string>Sen. la Mora  Itzel Sarahí Ríos de</string>
+			<key>partido</key>
+			<string>PRI</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=536</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 3 Oficina 18,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>zoerobledo@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Chiapas</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/zoe_alejandro_robledo_aburto.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Robledo Aburto  Zoé</string>
+			<key>partido</key>
+			<string>PRD</string>
+			<key>suplente</key>
+			<string> Froilán Esquinca Cano</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3273,5198</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=549</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 6 Oficina 21,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>romero.hicks@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Guanajuato</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/juan_carlos_romero_hicks.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Romero Hicks  Juan Carlos </string>
+			<key>partido</key>
+			<string>PAN</string>
+			<key>suplente</key>
+			<string> Leticia  Villegas Nava</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3301,5360,5218</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=552</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 3 Oficina 17,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>armando.rios@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Guerrero</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/armando_rios_piter.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Ríos Piter  Armando </string>
+			<key>partido</key>
+			<string>PRD</string>
+			<key>suplente</key>
+			<string> Celestino  Cesáreo Guzmán</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3272</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=553</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 3 Oficina 10,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>sofioramirez@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Guerrero</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/socorro_sofio_ramirez_fernandez.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Ramírez Hernández  Sofío </string>
+			<key>partido</key>
+			<string>PRD</string>
+			<key>suplente</key>
+			<string> Misael  Medrano Baza</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3133,5269</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=567</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 3 Oficina 1,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>benjaminrobles@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Oaxaca</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/angel_benjamin_robles_montoya.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Robles Montoya  Ángel Benjamín</string>
+			<key>partido</key>
+			<string>PRD</string>
+			<key>suplente</key>
+			<string> Félix Benjamín  Hernández Ruiz</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3118,3117,5132</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=568</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 3 Oficina 20,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>adolfo.romero@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Oaxaca</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/adolfo_romero_lainas.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Romero Lainas  Adolfo</string>
+			<key>partido</key>
+			<string>PRD</string>
+			<key>suplente</key>
+			<string> Mariano  Vicente Castillo</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3251,5228</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=615</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 5 Oficina 29,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>laura.rojas@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Lista Nacional</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/laura_angelica_rojas_hernandez.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Rojas Hernández  Laura Angélica </string>
+			<key>partido</key>
+			<string>PAN</string>
+			<key>suplente</key>
+			<string> http://www.laurarojash.net</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:5250,3808,3092</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=625</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 5 Oficina 11,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>carlos.romero@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Lista Nacional</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/carlos_antonio_romero_dechamps.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Romero Deschamps  Carlos</string>
+			<key>partido</key>
+			<string>PRI</string>
+			<key>suplente</key>
+			<string> Enrique Serrano Escobar</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:5442,3028</string>
+		</dict>
+	</array>
+	<key>S</key>
+	<array>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=525</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 6 Oficina 7,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>lfsalazar@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Coahuila</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/luis_fernando_salazar_fernandez.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Salazar Fernández  Luis Fernando </string>
+			<key>partido</key>
+			<string>PAN</string>
+			<key>suplente</key>
+			<string> Laura Guadalupe  Herrera Guajardo</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3031</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=527</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 3 Oficina 11,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>rabindranath.salazar@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Morelos</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/rabindranath_salazar_solorio.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Salazar Solorio  Rabindranath</string>
+			<key>partido</key>
+			<string>PRD</string>
+			<key>suplente</key>
+			<string> Miguel Enrique  Lucía Espejo</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3123,3124,3554</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=571</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 5 Oficina 14,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>lucero.saldana@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Puebla</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/maria_lucero_saldana_perez.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Saldaña Pérez  María Lucero</string>
+			<key>partido</key>
+			<string>PRI</string>
+			<key>suplente</key>
+			<string> Minerva  Ronquillo Onofre</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3588,3141</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=610</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso  Oficina ,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>ninfa.salinas@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Lista Nacional</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/ninfa_clara_salinas_sada.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Salinas Sada  Ninfa</string>
+			<key>partido</key>
+			<string>PVEM</string>
+			<key>suplente</key>
+			<string> Alma Lucía Arzaluz Alonso</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3151</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=622</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 3 Oficina 23,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>layda.sansores@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Lista Nacional</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/layda_elena_sansores_san_roman.jpg</string>
+			<key>nombre</key>
+			<string>Sen. San Román  Layda Sansores</string>
+			<key>partido</key>
+			<string>MC</string>
+			<key>suplente</key>
+			<string>  María del Carmen Ojesto Martínez Porcayo</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3254,5160,5165</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=623</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 5 Oficina 15,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>gerardo.sanchez@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Lista Nacional</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/gerardo_sanchez_garcia.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Sánchez García  Gerardo </string>
+			<key>partido</key>
+			<string>PRI</string>
+			<key>suplente</key>
+			<string> Víctor Manuel Anastasio Galicia Ávila</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3380,3922</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=631</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 3 Oficina 22,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>luis.sanchez@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Lista Nacional</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/luis_venancio_sanchez_jimenez.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Sánchez Jiménez  Luis </string>
+			<key>partido</key>
+			<string>PRD</string>
+			<key>suplente</key>
+			<string> Rodolfo Rubén Islas Ramos</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3834,3965,3407</string>
+		</dict>
+	</array>
+	<key>T</key>
+	<array>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=548</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 5 Oficina 31,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>torresgraciano@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Guanajuato</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/fernando_torres_graciano.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Torres Graciano  Fernando </string>
+			<key>partido</key>
+			<string>PAN</string>
+			<key>suplente</key>
+			<string> Adriana  Rodríguez Vizcarra Velázquez</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:5243,3424</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=574</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 6 Oficina 14,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>marcela.torres@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Querétaro</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/maria_marcela_torres_peimbert.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Torres Peimbert  María Marcela</string>
+			<key>partido</key>
+			<string>PAN</string>
+			<key>suplente</key>
+			<string> Lorena  Montes Hernández</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3261</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=581</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 5 Oficina 01,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>teofilo.torres@senado.gob.mx</string>
+			<key>estado</key>
+			<string>San Luis Potosí</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/teofilo_torres_corzo.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Torres Corzo  Teófilo</string>
+			<key>partido</key>
+			<string>PRI</string>
+			<key>suplente</key>
+			<string> Alejandro  Leal Tovias</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3097,3080</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=605</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 5 Oficina 16,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>alejandro.telloc@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Zacatecas</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/alejandro_tello_cristerna.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Tello Cristerna  Alejandro </string>
+			<key>partido</key>
+			<string>PRI</string>
+			<key>suplente</key>
+			<string> José Marco Antonio  Olvera Acevedo</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:5210,3434</string>
+		</dict>
+	</array>
+	<key>V</key>
+	<array>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=611</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 6 Oficina 20,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>salvador.vega@pan.senado.gob.mx</string>
+			<key>estado</key>
+			<string>Lista Nacional</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/salvador_vega_casillas.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Vega Casillas  Salvador </string>
+			<key>partido</key>
+			<string>PAN</string>
+			<key>suplente</key>
+			<string> Yolanda Martínez Medina</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3323,3322</string>
+		</dict>
+	</array>
+	<key>Y</key>
+	<array>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=598</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 5 Oficina 18,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>jose.yunes@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Veracruz</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/jose_francisco_yunes_zorrilla.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Yunes Zorrilla  José Francisco </string>
+			<key>partido</key>
+			<string>PRI</string>
+			<key>suplente</key>
+			<string> Ainara  Rementería Coello</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3078,5249</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=599</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 5 Oficina 19,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>hector.yunes@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Veracruz</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/hector_yunes_landa.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Yunes Landa  Héctor </string>
+			<key>partido</key>
+			<string>PRI</string>
+			<key>suplente</key>
+			<string> Erika  Ayala Ríos</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3973,3053</string>
+		</dict>
+		<dict>
+			<key>detallesString</key>
+			<string>http://www.senado.gob.mx/?ver=int&amp;mn=10&amp;id=600</string>
+			<key>direccion</key>
+			<string>Av. Paseo de la Reforma 135,Hemiciclo Piso 6 Oficina 13,Col. Tabacalera,Del. Cuauhtémoc, Cd. de México,C.P. 06030</string>
+			<key>email</key>
+			<string>fernandoyunes@senado.gob.mx</string>
+			<key>estado</key>
+			<string>Veracruz</string>
+			<key>imagen</key>
+			<string>http://www.senado.gob.mx/images/senadores/63/fernando_yunes_marquez.jpg</string>
+			<key>nombre</key>
+			<string>Sen. Yunes Márquez  Fernando</string>
+			<key>partido</key>
+			<string>PAN</string>
+			<key>suplente</key>
+			<string> María del Rosario  Guzmán Avilés</string>
+			<key>telefono</key>
+			<string>53-45-30-00Ext:3325,5458</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -2,7 +2,7 @@
 //  EBAppDelegate.m
 //  MiCongreso
 //
-//  Created by Edu on 16/03/13.
+
 //  Copyright (c) 2013 Eduardo Blancas https://github.com/edublancas
 //
 //  MIT LICENSE
@@ -42,20 +42,38 @@
     NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
     NSString *documentsDirectory = [paths objectAtIndex:0];
     NSString *pathSenadores = [documentsDirectory stringByAppendingString:@"/senadores.plist"];
+    NSString *pathComSenadores = [documentsDirectory stringByAppendingString:@"/comisionesOrdinariasSenadores.plist"];
     NSString *pathDiputados = [documentsDirectory stringByAppendingString:@"/diputados.plist"];
+    NSString *pathComDiputados = [documentsDirectory stringByAppendingString:@"/comisionesOrdinariasDiputados.plist"];
     
     NSFileManager *fileManager = [NSFileManager defaultManager];
     
     if (![[NSFileManager defaultManager] fileExistsAtPath:pathDiputados]){
         //Copiar archivo
-        NSString *sourceDiputados = [[NSBundle mainBundle] pathForResource:@"diputados" ofType:@"plist"];
-        [fileManager copyItemAtPath:sourceDiputados toPath:pathDiputados error:nil];
+        NSLog(@"Copiando diputados.plist");
+        NSString *source = [[NSBundle mainBundle] pathForResource:@"diputados" ofType:@"plist"];
+        [fileManager copyItemAtPath:source toPath:pathDiputados error:nil];
     }
     
     if (![[NSFileManager defaultManager] fileExistsAtPath:pathSenadores]){
         //Copiar archivo
-        NSString *sourceSenadores = [[NSBundle mainBundle] pathForResource:@"senadores" ofType:@"plist"];
-        [fileManager copyItemAtPath:sourceSenadores toPath:pathSenadores error:nil];
+        NSLog(@"Copiando senadores");
+        NSString *source = [[NSBundle mainBundle] pathForResource:@"senadores" ofType:@"plist"];
+        [fileManager copyItemAtPath:source toPath:pathSenadores error:nil];
+    }
+    
+    if (![[NSFileManager defaultManager] fileExistsAtPath:pathComDiputados]){
+        //Copiar archivo
+        NSLog(@"Copiando comisionesOrdinariasDiputados.plist");
+        NSString *source = [[NSBundle mainBundle] pathForResource:@"comisionesOrdinariasDiputados" ofType:@"plist"];
+        [fileManager copyItemAtPath:source toPath:pathComDiputados error:nil];
+    }
+    
+    if (![[NSFileManager defaultManager] fileExistsAtPath:pathComSenadores]){
+        //Copiar archivo
+        NSLog(@"Copiando comisionesOrdinariasSenadores.plist");
+        NSString *source = [[NSBundle mainBundle] pathForResource:@"comisionesOrdinariasSenadores" ofType:@"plist"];
+        [fileManager copyItemAtPath:source toPath:pathComSenadores error:nil];
     }
     
     

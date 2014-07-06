@@ -2,7 +2,7 @@
 //  EBCongresistaDetailViewController.h
 //  MiCongreso
 //
-//  Created by Edu on 22/03/13.
+
 //  Copyright (c) 2013 Eduardo Blancas https://github.com/edublancas
 //
 //  MIT LICENSE
@@ -30,6 +30,7 @@
 #import <MessageUI/MessageUI.h>
 #import <MessageUI/MFMailComposeViewController.h>
 #import <QuartzCore/QuartzCore.h>
+#import "EBBrowserViewController.h"
 
 @interface EBCongresistaDetailViewController : UITableViewController <EBCongresistaDelegate, MFMailComposeViewControllerDelegate>{
     EBCongresista *congresista;

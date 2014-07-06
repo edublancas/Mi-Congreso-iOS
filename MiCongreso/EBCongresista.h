@@ -2,7 +2,7 @@
 //  EBCongresista.h
 //  MiCongreso
 //
-//  Created by Edu on 16/03/13.
+
 //  Copyright (c) 2013 Eduardo Blancas https://github.com/edublancas
 //
 //  MIT LICENSE
@@ -29,6 +29,7 @@
 #import "TFHppleElement.h"
 #import "TFHpple.h"
 #import <Foundation/Foundation.h>
+#import "SVProgressHUD.h"
 
 @protocol EBCongresistaDelegate
 -(void)didUpdateDetails;
@@ -77,6 +78,9 @@
 -(id)initWithElement:(TFHppleElement *)element;
 -(id)initWithCongresoRestDic:(NSDictionary *)dic;
 -(id)initWithDic:(NSDictionary *)plistDic type:(NSUInteger)type;
+-(id)initWithName:(NSString *)name andType: (NSUInteger)type;
+
+
 -(void)descargarDetalles;
 -(NSDictionary *)exportAsDictionary;
 

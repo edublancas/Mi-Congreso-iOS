@@ -2,7 +2,7 @@
 //  EBIniciativasTableViewController.m
 //  MiCongreso
 //
-//  Created by Edu on 17/03/13.
+
 //  Copyright (c) 2013 Eduardo Blancas https://github.com/edublancas
 //
 //  MIT LICENSE
@@ -53,17 +53,49 @@
     
     font = [UIFont boldSystemFontOfSize:kFontSize];
     
-    self.navigationItem.title = @"Iniciativas en Curul501";
+    self.navigationItem.title = @"Iniciativas";
     
     iniciativas = [[NSMutableArray alloc]init];
-    [SVStatusHUD showWithImage:[UIImage imageNamed:@"update.png"] status:@"Cargando..." duration:3];
-    [self cargarIniciativas];
+    
+    reach = [Reachability reachabilityWithHostname:@"www.google.com"];
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(reachabilityChanged:)
+                                                 name:kReachabilityChangedNotification
+                                               object:nil];
+    
+    [reach startNotifier];
+    
+    
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
  
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
     
+    UIBarButtonItem *button =[[UIBarButtonItem alloc]
+                              initWithImage:[UIImage imageNamed:@"42-info.png"] style:UIBarButtonItemStyleBordered target:self action:@selector(aboutView)];
+	
+    [self.navigationItem setRightBarButtonItem:button animated:NO];
+    
+}
+
+-(void)reachabilityChanged:(SCNetworkReachabilityFlags)flag{
+    if (![reach isReachable]) {
+        [SVStatusHUD showWithImage:[UIImage imageNamed:@"no.png"]
+                            status:@"No hay conexión" duration:3.0];
+    }else{
+        isLoading = YES;
+        [self cargarIniciativas];
+        
+    }
+
+}
+
+
+
+-(void)aboutView{
+    AboutViewController *controller = [[AboutViewController alloc]init];
+    [self presentViewController:controller animated:YES completion:nil];
 }
 
 - (void)didReceiveMemoryWarning
@@ -107,44 +139,6 @@
     return size.height+kTopMargin+kBottomMargin;
 }
 
-/*
-// Override to support conditional editing of the table view.
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    // Return NO if you do not want the specified item to be editable.
-    return YES;
-}
-*/
-
-/*
-// Override to support editing the table view.
-- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    if (editingStyle == UITableViewCellEditingStyleDelete) {
-        // Delete the row from the data source
-        [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
-    }   
-    else if (editingStyle == UITableViewCellEditingStyleInsert) {
-        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-    }   
-}
-*/
-
-/*
-// Override to support rearranging the table view.
-- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath
-{
-}
-*/
-
-/*
-// Override to support conditional rearranging of the table view.
-- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    // Return NO if you do not want the item to be re-orderable.
-    return YES;
-}
-*/
 
 #pragma mark - Table view delegate
 
@@ -163,6 +157,7 @@
 }
 
 -(void)cargarIniciativas{
+    [[EBProgressIndicator sharedProgressIndicator]addProcessToQueue];
     numeroDePaginasMostradas++;
      NSURL *URL = [NSURL URLWithString:[NSString stringWithFormat:@"http://curul501.org/iniciativas/page/%d", numeroDePaginasMostradas]];
     [NSURLConnection sendAsynchronousRequest:[NSURLRequest requestWithURL:URL] queue:[NSOperationQueue mainQueue] completionHandler:^(NSURLResponse *response, NSData *data, NSError *error){
@@ -177,14 +172,14 @@
                 }
                 
                 [self.tableView reloadData];
-            }else{
-                [SVStatusHUD showWithImage:[UIImage imageNamed:@"no.png"] status:@"No hay más datos" duration:3];
             }
             isLoading = NO;
-        }
-        else if (error)
+            [[EBProgressIndicator sharedProgressIndicator]removeProcessFromQueue];
+            
+        }else if (error)
             NSLog(@"%@",error);
             isLoading = NO;
+            [[EBProgressIndicator sharedProgressIndicator]removeProcessFromQueue];
     }];
 }
 
@@ -199,7 +194,6 @@
         if (!isLoading) {
             [self cargarIniciativas];
             NSLog(@"Cargas más...");
-            [SVStatusHUD showWithImage:[UIImage imageNamed:@"update.png"] status:@"Cargando..." duration:3];
             isLoading = YES;
         }
     }

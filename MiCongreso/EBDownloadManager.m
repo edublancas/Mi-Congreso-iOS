@@ -2,7 +2,7 @@
 //  EBDownloadManager.m
 //  MiCongreso
 //
-//  Created by Edu on 22/03/13.
+
 //  Copyright (c) 2013 Eduardo Blancas https://github.com/edublancas
 //
 //  MIT LICENSE
@@ -61,7 +61,7 @@
         
         for (int i = 0; i<URLKeys.count; i++) {
             NSString *partido = [partidos objectAtIndex:i];
-            NSString *urlString = [NSString stringWithFormat:@"http://webcache.googleusercontent.com/search?q=cache:http://sitl.diputados.gob.mx/LXII_leg/listado_diputados_gpnp.php?tipot=%d", [[URLKeys objectAtIndex:i]integerValue]];
+            NSString *urlString = [NSString stringWithFormat:@"%@LXII_leg/listado_diputados_gpnp.php?tipot=%d", kDiputadosBaseURLsitl,[[URLKeys objectAtIndex:i]integerValue]];
             NSURL *URL = [NSURL URLWithString:urlString];
             
             
@@ -75,7 +75,8 @@
                             NSArray *datos = [NSArray arrayWithArray:[elemento childrenWithClassName:@"textoNegro"]];
                             if (datos.count==3) {
                                 NSMutableString *detalles = [[NSMutableString alloc]init];
-                                [detalles setString:@"http://webcache.googleusercontent.com/search?q=cache:http://sitl.diputados.gob.mx/LXII_leg/"];
+                                [detalles setString:kDiputadosBaseURLsitl];
+                                [detalles appendString:@"LXII_leg/"];
                                 [detalles appendString:[[[datos objectAtIndex:0]firstChild]objectForKey:@"href"]];
                                 
                                 NSMutableString *nombreMutable = [[NSMutableString alloc]initWithString:[[[[datos objectAtIndex:0]firstChild]firstChild]content]];
@@ -140,53 +141,7 @@
         }
         
     }
-    
-    
-    /*
-    NSURL *URL = [NSURL URLWithString:@"http://localhost/diputados.html"];
-    
-    [NSURLConnection sendAsynchronousRequest:[NSURLRequest requestWithURL:URL] queue:[NSOperationQueue mainQueue] completionHandler:^(NSURLResponse *response, NSData *data, NSError *error){
-        if (data){
-            NSArray *arrayData = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingAllowFragments error:nil];
-            
-            for (NSDictionary *dic in arrayData) {
-                NSString *nombre = [dic objectForKey:@"nombre"];
-                NSString *inicial = [[nombre substringToIndex:1]uppercaseString];
-                //NSLog(@"Inicial: %@, datos: %@", inicial, dic);
-                EBCongresista *diputado = [[EBCongresista alloc]initWithCongresoRestDic:dic];
-                
-                if ([diputados objectForKey:inicial]) {
-                    NSMutableArray *mutable = [diputados objectForKey:inicial];
-                    [mutable addObject:diputado];
-                    
-                }else{
-                    NSMutableArray *mutable = [[NSMutableArray alloc]init];
-                    [mutable addObject:diputado];
-                    [diputados setObject:mutable forKey:inicial];
-                }
-                
-            }
-            
-            NSLog(@"Diputados dic: %@", diputados);
-            if ([(NSObject *)delegate respondsToSelector:@selector(seDescargaronDiputados:)]) {
-                [delegate seDescargaronDiputados:diputados];
-                [self guardarDiputados];
-            }
 
-            
-            
-            
-        }
-        else if (error)
-            NSLog(@"%@",error);
-    }];*/
-    
-    
-    
-    
-    
-    
-    
 }
 
 -(void)countUpDiputados{
@@ -239,7 +194,7 @@
         for (letra = 'A'; letra<='Z'; letra++) {
             //NSLog(@"%c", letra);
             
-            NSURL *URL = [NSURL URLWithString:[NSString stringWithFormat:@"http://www.senado.gob.mx/?ver=int&mn=9&sm=1&str=%c", letra]];
+            NSURL *URL = [NSURL URLWithString:[NSString stringWithFormat:@"%@?ver=int&mn=9&sm=1&str=%c", kSenadoresBaseURL, letra]];
             [NSURLConnection sendAsynchronousRequest:[NSURLRequest requestWithURL:URL] queue:[NSOperationQueue mainQueue] completionHandler:^(NSURLResponse *response, NSData *data, NSError *error){
                 if (data){
                     TFHpple *parser = [TFHpple hppleWithHTMLData:data];

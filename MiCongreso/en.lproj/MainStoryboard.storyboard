@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12C60" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="4">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12D78" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="4">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
@@ -69,6 +69,140 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="apj-FL-LPB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="31" y="373"/>
+        </scene>
+        <!--Sesiones Root View Controller - Sesión de hoy-->
+        <scene sceneID="Nci-ej-tWC">
+            <objects>
+                <tableViewController id="q1T-hR-vrl" customClass="EBSesionesRootViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="singleLineEtched" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="n6J-Fd-peG">
+                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" id="hCM-rQ-i7t">
+                                <rect key="frame" x="0.0" y="46" width="320" height="46"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="10" y="1" width="300" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                            </tableViewCell>
+                        </prototypes>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Sesión de hoy" id="wqy-On-I74"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mb8-LL-iRf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="666" y="1161"/>
+        </scene>
+        <!--Comisiones View Controller - Comisiones-->
+        <scene sceneID="seb-Zi-6sB">
+            <objects>
+                <tableViewController id="UYQ-SW-vB9" customClass="EBComisionesViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="singleLineEtched" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="09t-nB-wiS">
+                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <containerView key="tableHeaderView" contentMode="scaleToFill" id="Vpj-5k-kku">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <segue destination="xgK-QB-Xrb" kind="embed" id="OWk-QG-Dnb"/>
+                            </connections>
+                        </containerView>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" id="15D-10-TaP">
+                                <rect key="frame" x="0.0" y="80" width="320" height="46"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="10" y="1" width="300" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                            </tableViewCell>
+                        </prototypes>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Comisiones" id="oL6-l6-jnF"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FrC-3M-jaB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="775" y="1901"/>
+        </scene>
+        <!--News View Controller - Noticias-->
+        <scene sceneID="5yX-nY-jnM">
+            <objects>
+                <tableViewController id="maD-Er-2d9" customClass="EBNewsViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="singleLineEtched" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="cpU-Gy-zhY">
+                        <rect key="frame" x="0.0" y="64" width="320" height="455"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" id="AcV-Om-Dla">
+                                <rect key="frame" x="0.0" y="46" width="320" height="46"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="10" y="1" width="300" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                            </tableViewCell>
+                        </prototypes>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Noticias" id="xGK-EZ-DtD"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0sh-Rh-MX9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="775" y="2569"/>
+        </scene>
+        <!--Navigation Controller - Noticias-->
+        <scene sceneID="EXS-ja-gH3">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="UMj-4C-w6g" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Noticias" image="166-newspaper.png" id="8nN-1W-nDb"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="hUi-jC-dSy">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="maD-Er-2d9" kind="relationship" relationship="rootViewController" id="Qg9-cz-aSB"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Or4-po-nB0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="243" y="2569"/>
+        </scene>
+        <!--Navigation Controller - Comisiones-->
+        <scene sceneID="v6D-Vl-SJl">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="46K-Yt-7oy" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Comisiones" image="300-orgchart.png" id="V7t-ZL-zTX"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="jEj-5e-N9u">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="UYQ-SW-vB9" kind="relationship" relationship="rootViewController" id="Qkc-bD-PEB"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bJL-nL-pVc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="243" y="1901"/>
+        </scene>
+        <!--Navigation Controller - Sesiones-->
+        <scene sceneID="TvS-qm-fEK">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="QEY-nD-fDg" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Sesiones" image="83-calendar.png" id="Bq4-sb-5IA"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="3JT-3R-N8q">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="q1T-hR-vrl" kind="relationship" relationship="rootViewController" id="hbC-HL-ecK"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h7z-uj-Pk6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="138" y="1161"/>
         </scene>
         <!--Congresistas View Controller-->
         <scene sceneID="C7O-S4-k3y">
@@ -155,6 +289,9 @@
                     <connections>
                         <segue destination="3w5-uV-P62" kind="relationship" relationship="viewControllers" id="j7d-Ly-Tll"/>
                         <segue destination="LHL-rV-DgU" kind="relationship" relationship="viewControllers" id="zJh-8P-PCn"/>
+                        <segue destination="46K-Yt-7oy" kind="relationship" relationship="viewControllers" id="bQB-yx-cYr"/>
+                        <segue destination="QEY-nD-fDg" kind="relationship" relationship="viewControllers" id="zCL-zI-pte"/>
+                        <segue destination="UMj-4C-w6g" kind="relationship" relationship="viewControllers" id="56H-7n-k6e"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="14" sceneMemberID="firstResponder"/>
@@ -227,12 +364,47 @@
             </objects>
             <point key="canvasLocation" x="1233" y="447"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="QC3-vW-f97">
+            <objects>
+                <viewController id="xgK-QB-Xrb" sceneMemberID="viewController">
+                    <view key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="62v-Ea-iFz">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="LMF-kT-KMS">
+                                <segments>
+                                    <segment title="Senadores"/>
+                                    <segment title="Diputados"/>
+                                </segments>
+                                <color key="tintColor" red="0.75686275959014893" green="0.56862747669219971" blue="0.28627452254295349" alpha="1" colorSpace="calibratedRGB"/>
+                            </segmentedControl>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="LMF-kT-KMS" firstAttribute="leading" secondItem="62v-Ea-iFz" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="AwB-eC-VxU"/>
+                            <constraint firstItem="LMF-kT-KMS" firstAttribute="top" secondItem="62v-Ea-iFz" secondAttribute="top" constant="7" id="GCv-q8-8e5"/>
+                            <constraint firstAttribute="trailing" secondItem="LMF-kT-KMS" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="TqQ-UC-QcP"/>
+                        </constraints>
+                    </view>
+                    <toolbarItems/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FGW-0q-eqS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1242" y="1879"/>
+        </scene>
     </scenes>
     <resources>
         <image name="123-id-card.png" width="24" height="17"/>
+        <image name="166-newspaper.png" width="28" height="23"/>
         <image name="256-box2.png" width="22" height="20"/>
+        <image name="300-orgchart.png" width="28" height="28"/>
+        <image name="83-calendar.png" width="23" height="25"/>
     </resources>
     <classes>
+        <class className="EBComisionesViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/EBComisionesViewController.h"/>
+        </class>
         <class className="EBCongresistaDetailViewController" superclassName="UITableViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/EBCongresistaDetailViewController.h"/>
         </class>
@@ -244,6 +416,12 @@
         </class>
         <class className="EBIniciativasTableViewController" superclassName="UITableViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/EBIniciativasTableViewController.h"/>
+        </class>
+        <class className="EBNewsViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/EBNewsViewController.h"/>
+        </class>
+        <class className="EBSesionesRootViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/EBSesionesRootViewController.h"/>
         </class>
         <class className="NSLayoutConstraint" superclassName="NSObject">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>

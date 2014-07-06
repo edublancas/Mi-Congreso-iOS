@@ -2,7 +2,7 @@
 //  EBSecondViewController.m
 //  MiCongreso
 //
-//  Created by Edu on 16/03/13.
+
 //  Copyright (c) 2013 Eduardo Blancas https://github.com/edublancas
 //
 //  MIT LICENSE
@@ -71,9 +71,36 @@
                                initWithImage:icon style:UIBarButtonItemStylePlain target:self action:@selector(mostrarCongresistasParaMiUbicacion)];
     [self.navigationItem setRightBarButtonItem:button animated:NO];
     
-    [self filtrar];
     
+    //Download details 
+    /*NSArray *keyS = [senadores allKeys];
+    
+    for (int i=0; i<keyS.count; i++) {
+        NSArray *cForKey = [senadores objectForKey:[keyS objectAtIndex:i]];
+        for (EBCongresista *cong in cForKey) {
+            [cong descargarDetalles];
+        }
+    }*/
+    
+    /*
+    NSArray *keyD = [diputados allKeys];
+    
+    for (int i=0; i<keyD.count; i++) {
+        NSArray *cForKey = [diputados objectForKey:[keyD objectAtIndex:i]];
+        for (EBCongresista *cong in cForKey) {
+            if (!cong.email.length) {
+                [cong descargarDetalles];
+                NSLog(@"whoops!");
+                [NSThread sleepForTimeInterval:3.0];
+            }
+        }
+    }
+     
+    */
+}
 
+-(void)viewDidAppear:(BOOL)animated{
+    [self filtrar];
 }
 
 - (void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray *)location{

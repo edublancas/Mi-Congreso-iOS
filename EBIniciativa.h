@@ -2,7 +2,7 @@
 //  EBIniciativa.h
 //  MiCongreso
 //
-//  Created by Edu on 16/03/13.
+
 //  Copyright (c) 2013 Eduardo Blancas https://github.com/edublancas
 //
 //  MIT LICENSE
@@ -28,6 +28,7 @@
 #import <Foundation/Foundation.h>
 #import "TFHppleElement.h"
 #import "TFHpple.h"
+#import "SVProgressHUD.h"
 
 @protocol EBIniciativaDelegate
 -(void)didUpdateDetails;
